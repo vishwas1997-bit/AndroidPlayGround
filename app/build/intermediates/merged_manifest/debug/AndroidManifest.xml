@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlindemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.KotlinDemo" >
+        <activity
+            android:name="com.example.kotlindemo.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kotlindemo.lauchmodedemo.FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kotlindemo.lauchmodedemo.ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kotlindemo.lauchmodedemo.SecondActivity"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.kotlindemo.lauchmodedemo.FirstActivity"
+            android:exported="false" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.kotlindemo.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

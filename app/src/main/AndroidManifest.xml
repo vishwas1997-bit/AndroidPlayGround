@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlindemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinDemo">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RoomDatabaseDemo.ui.NewCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomDatabaseDemo.ui.RoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".rxjava.ui.SimpleAPICallActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".rxjava.ui.MultipleApiCallActivity"
+            android:exported="true" />
+        <activity
+            android:name=".lauchmodedemo.FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lauchmodedemo.ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lauchmodedemo.SecondActivity"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".lauchmodedemo.FirstActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_data_show_java2.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_show_java2.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\course_rv_item.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\course_rv_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_first.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_data_fetch.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_fetch.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_course.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_new_course.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_note.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_note.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_example.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_example.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_data_show.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_show.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fourth.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_fourth.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_third.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_third.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_room.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_room.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_two_api_call.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_two_api_call.xml"
+    }
+]
