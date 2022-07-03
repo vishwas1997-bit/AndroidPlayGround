@@ -16,6 +16,10 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_fetch.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_note_list.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\fragment_note_list.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_two_api_call.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_two_api_call.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_insert_data.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_insert_data.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",

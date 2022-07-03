@@ -12,6 +12,7 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.example.kotlindemo.databinding.ActivityMainBinding
 import com.example.kotlindemo.lauchmodedemo.FirstActivity
+import com.example.kotlindemo.notes_app.NoteActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDataFetch.setOnClickListener {
             startActivity(Intent(this@MainActivity, FirstActivity::class.java))
+        }
+
+        binding.noteApp.setOnClickListener {
+            startActivity(Intent(this@MainActivity, NoteActivity::class.java))
         }
     }
 

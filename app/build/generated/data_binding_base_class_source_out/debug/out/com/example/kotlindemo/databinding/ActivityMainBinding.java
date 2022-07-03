@@ -17,10 +17,14 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
   public final Button btnDataFetch;
 
+  @NonNull
+  public final Button noteApp;
+
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnDataFetch) {
+      Button btnDataFetch, Button noteApp) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnDataFetch = btnDataFetch;
+    this.noteApp = noteApp;
   }
 
   @NonNull

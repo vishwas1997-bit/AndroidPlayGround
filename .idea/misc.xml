@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_insert_data.xml" value="0.203125" />
         <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_main.xml" value="0.2171875" />
         <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_new_course.xml" value="0.2171875" />
         <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_note.xml" value="0.2171875" />
+        <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_notes.xml" value="0.2171875" />
         <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/activity_room.xml" value="0.2171875" />
+        <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/fragment_note_list.xml" value="0.2171875" />
         <entry key="..\:/AndroidProjects/kotlinproject/app/src/main/res/layout/item_layout.xml" value="0.2171875" />
         <entry key="..\:/kotlinproject/app/src/main/res/layout/activity_data_fetch.xml" value="0.203125" />
         <entry key="..\:/kotlinproject/app/src/main/res/layout/activity_data_show.xml" value="0.203125" />

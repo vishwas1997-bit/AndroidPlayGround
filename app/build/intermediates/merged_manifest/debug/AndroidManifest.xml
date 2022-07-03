@@ -25,6 +25,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.KotlinDemo" >
         <activity
+            android:name="com.example.kotlindemo.notes_app.ui.base.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kotlindemo.notes_app.NoteActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.kotlindemo.MainActivity"
             android:exported="true" >
             <intent-filter>

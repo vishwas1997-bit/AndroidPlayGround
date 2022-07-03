@@ -3,8 +3,8 @@ package com.example.kotlindemo.di.component;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.example.kotlindemo.di.NoteActivity;
-import com.example.kotlindemo.di.NoteActivity_MembersInjector;
+import com.example.kotlindemo.di.InsertDataActivity;
+import com.example.kotlindemo.di.InsertDataActivity_MembersInjector;
 import com.example.kotlindemo.di.local.NoteDatabase;
 import com.example.kotlindemo.di.module.NotesModule;
 import com.example.kotlindemo.di.module.NotesModule_GetNotesDbFactory;
@@ -42,14 +42,14 @@ public final class DaggerNotesComponent implements NotesComponent {
   }
 
   @Override
-  public void inject(NoteActivity activity) {
-    injectNoteActivity(activity);
+  public void inject(InsertDataActivity activity) {
+    injectInsertDataActivity(activity);
   }
 
-  private NoteActivity injectNoteActivity(NoteActivity instance) {
-    NoteActivity_MembersInjector.injectSharedPreferences(
+  private InsertDataActivity injectInsertDataActivity(InsertDataActivity instance) {
+    InsertDataActivity_MembersInjector.injectSharedPreferences(
         instance, provideSharedPreferencesProvider.get());
-    NoteActivity_MembersInjector.injectDatabase(instance, getNotesDbProvider.get());
+    InsertDataActivity_MembersInjector.injectDatabase(instance, getNotesDbProvider.get());
     return instance;
   }
 

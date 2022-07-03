@@ -1962,6 +1962,7 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
+dimen dimen_4dp
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fab_margin
@@ -2884,6 +2885,7 @@ id noState
 id none
 id normal
 id north
+id note_app
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3152,6 +3154,7 @@ layout activity_data_show_java2
 layout activity_example
 layout activity_first
 layout activity_fourth
+layout activity_insert_data
 layout activity_main
 layout activity_new_course
 layout activity_note
@@ -3176,6 +3179,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_note_list
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3294,6 +3298,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
+string hello_blank_fragment
 string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior

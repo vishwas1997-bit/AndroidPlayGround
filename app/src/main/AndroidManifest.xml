@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinDemo">
         <activity
+            android:name=".notes_app.ui.base.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notes_app.NoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -32,7 +38,7 @@
             android:exported="true" />
         <activity
             android:name=".rxjava.ui.SimpleAPICallActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".rxjava.ui.MultipleApiCallActivity"
             android:exported="true" />
