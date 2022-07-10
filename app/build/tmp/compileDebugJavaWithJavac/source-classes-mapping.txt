@@ -14,6 +14,8 @@ com/example/kotlindemo/di/module/NotesModule.java
  com.example.kotlindemo.di.module.NotesModule
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
+com/example/kotlindemo/databinding/FragmentNoteAddBinding.java
+ com.example.kotlindemo.databinding.FragmentNoteAddBinding
 com/example/kotlindemo/databinding/ActivityThirdBindingImpl.java
  com.example.kotlindemo.databinding.ActivityThirdBindingImpl
 com/example/kotlindemo/databinding/ActivityRoomBinding.java
@@ -74,8 +76,12 @@ com/example/kotlindemo/RoomDatabaseDemo/ui/RoomActivity.java
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$2
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$3
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$4
+com/example/kotlindemo/notes_app/di/module/FragmentModule_ProvideNoteViewModelFactory.java
+ com.example.kotlindemo.notes_app.di.module.FragmentModule_ProvideNoteViewModelFactory
 com/example/kotlindemo/databinding/ActivitySecondBindingImpl.java
  com.example.kotlindemo.databinding.ActivitySecondBindingImpl
+com/example/kotlindemo/notes_app/di/module/ActivityModule_ProvideNoteViewModelFactory.java
+ com.example.kotlindemo.notes_app.di.module.ActivityModule_ProvideNoteViewModelFactory
 com/example/kotlindemo/rxjava/ui/SimpleAPICallActivity.java
  com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity
  com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity$1
@@ -135,6 +141,8 @@ com/example/kotlindemo/rxjava/ui/MultipleApiCallActivity.java
 com/example/kotlindemo/RoomDatabaseDemo/ui/NewCourseActivity.java
  com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity
  com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity$1
+com/example/kotlindemo/databinding/FragmentNoteListBindingImpl.java
+ com.example.kotlindemo.databinding.FragmentNoteListBindingImpl
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
 com/example/kotlindemo/RoomDatabaseDemo/data/Dao.java

@@ -20,6 +20,10 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_first.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_note_add.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\fragment_note_add.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_data_fetch.xml",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_fetch.xml"
     },

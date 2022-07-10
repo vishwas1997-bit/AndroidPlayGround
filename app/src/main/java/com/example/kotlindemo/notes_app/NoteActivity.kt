@@ -1,14 +1,44 @@
 package com.example.kotlindemo.notes_app
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil.setContentView
+import android.view.MenuItem
+import com.example.kotlindemo.BR
 import com.example.kotlindemo.R
+import com.example.kotlindemo.databinding.ActivityNoteBinding
+import com.example.kotlindemo.notes_app.di.component.ActivityComponent
 import com.example.kotlindemo.notes_app.ui.base.BaseActivity
 
-class NoteActivity : AppCompatActivity() {
+class NoteActivity : BaseActivity<ActivityNoteBinding,NoteViewModel>() {
+
+    lateinit var mActivityNoteBinding: ActivityNoteBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_note)
+        mActivityNoteBinding = getViewDataBinding()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.title = "Notes"
+    }
+
+    override fun getLayoutId(): Int {
+        return R.layout.activity_note
+    }
+
+    override fun getBindingVariable(): Int {
+        return BR._all
+    }
+
+    override fun performDependencyInjection(buildComponent: ActivityComponent) {
+        buildComponent.inject(this)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

@@ -1962,6 +1962,7 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
+dimen dimen_32dp
 dimen dimen_4dp
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
@@ -2498,6 +2499,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2741,6 +2743,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_btn
 id fade
 id fill
 id fill_horizontal
@@ -2870,6 +2873,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
 id nav_host_fragment_container
+id nav_notes
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2885,6 +2889,7 @@ id noState
 id none
 id normal
 id north
+id noteListFragment
 id note_app
 id notification_background
 id notification_main_column
@@ -2924,6 +2929,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rvNote
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3179,6 +3185,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_note_add
 layout fragment_note_list
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3255,6 +3262,7 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_notes
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3283,6 +3291,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_note
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior

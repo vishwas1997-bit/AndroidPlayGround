@@ -24,6 +24,10 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_two_api_call.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_note_add.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\fragment_note_add.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_room.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_room.xml"
     },
@@ -68,12 +72,12 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_insert_data.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_insert_data.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -82,6 +86,10 @@
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_first.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_example.xml.flat",
@@ -106,6 +114,10 @@
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_note.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_notes.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\navigation\\nav_notes.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_third.xml.flat",

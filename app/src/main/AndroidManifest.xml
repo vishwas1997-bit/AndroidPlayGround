@@ -14,10 +14,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KotlinDemo">
-        <activity
-            android:name=".notes_app.ui.base.BaseActivity"
-            android:exported="false" />
+        android:theme="@style/Theme.KotlinDemo"
+        android:name=".notes_app.App">
         <activity
             android:name=".notes_app.NoteActivity"
             android:exported="false" />

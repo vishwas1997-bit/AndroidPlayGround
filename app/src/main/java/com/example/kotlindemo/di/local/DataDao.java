@@ -15,6 +15,6 @@ public interface DataDao {
     void insert(DataEntity data);
 
 
-//    @Query("SELECT * FROM note_entity ")
-//    List<DataEntity> getNoteList();
+    @Query("SELECT * FROM data_table ")
+    List<DataEntity> getNoteList();
 }

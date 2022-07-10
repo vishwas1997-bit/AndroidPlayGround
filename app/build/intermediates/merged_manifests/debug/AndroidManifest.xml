@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+        android:name="com.example.kotlindemo.notes_app.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -24,9 +25,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.KotlinDemo" >
-        <activity
-            android:name="com.example.kotlindemo.notes_app.ui.base.BaseActivity"
-            android:exported="false" />
         <activity
             android:name="com.example.kotlindemo.notes_app.NoteActivity"
             android:exported="false" />
