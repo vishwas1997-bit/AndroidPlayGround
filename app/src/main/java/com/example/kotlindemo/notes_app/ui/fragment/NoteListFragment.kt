@@ -5,17 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.example.kotlindemo.BR
 import com.example.kotlindemo.R
 import com.example.kotlindemo.databinding.FragmentNoteListBinding
 import com.example.kotlindemo.notes_app.NoteViewModel
 import com.example.kotlindemo.notes_app.di.component.FragmentComponent
+import com.example.kotlindemo.notes_app.ui.NoteNavigator
 import com.example.kotlindemo.notes_app.ui.base.BaseFragment
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>() {
+class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), NoteNavigator {
 
     lateinit var mFragmentNoteListBinding: FragmentNoteListBinding
 
@@ -44,8 +46,10 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         mFragmentNoteListBinding = getViewDataBinding()
-
-        mFragmentNoteListBinding.fabBtn.show()
+        mViewModel?.setNavigator(this)
+        mFragmentNoteListBinding.fabBtn.setOnClickListener {
+            mViewModel?.addNote()
+        }
     }
 
 
@@ -60,5 +64,14 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>() {
 
     override fun performDependencyInjection(buildComponent: FragmentComponent) {
         buildComponent.inject(this)
+    }
+
+    override fun openAddNoteFragment() {
+        Navigation.findNavController(mFragmentNoteListBinding.root)
+            .navigate(R.id.action_noteListFragment_to_noteAddFragment)
+    }
+
+    override fun openUpdateNoteFragment() {
+        TODO("Not yet implemented")
     }
 }

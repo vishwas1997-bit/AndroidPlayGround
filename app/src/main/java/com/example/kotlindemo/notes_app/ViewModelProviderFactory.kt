@@ -9,10 +9,10 @@ class ViewModelProviderFactory<T : ViewModel>(viewModelClass: Class<T>?, viewMod
     private var viewModelClass: Class<T>? = null
     private var viewModelSupplier: Supplier<T>? = null
 
-//    fun ViewModelProviderFactory() {
-//        this.viewModelClass = viewModelClass
-//        this.viewModelSupplier = viewModelSupplier
-//    }
+    init {
+        this.viewModelClass = viewModelClass
+        this.viewModelSupplier = viewModelSupplier
+    }
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return if (modelClass.isAssignableFrom(viewModelClass!!)) {

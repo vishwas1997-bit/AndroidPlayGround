@@ -10,7 +10,7 @@ import com.example.kotlindemo.notes_app.ui.base.BaseActivity
 
 class NoteActivity : BaseActivity<ActivityNoteBinding,NoteViewModel>() {
 
-    lateinit var mActivityNoteBinding: ActivityNoteBinding
+    private lateinit var mActivityNoteBinding: ActivityNoteBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

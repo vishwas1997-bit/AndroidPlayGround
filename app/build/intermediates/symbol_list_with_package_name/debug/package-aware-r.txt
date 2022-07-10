@@ -27,6 +27,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade_in
+anim fade_out
 anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
@@ -35,6 +37,8 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_left
+anim slide_right
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1962,6 +1966,7 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
+dimen dimen_16dp
 dimen dimen_32dp
 dimen dimen_4dp
 dimen disabled_alpha_material_dark
@@ -2405,6 +2410,8 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen txt_size_16sp
+dimen txt_size_24sp
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -2623,6 +2630,8 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_noteListFragment_to_noteAddFragment
+id action_noteListFragment_to_noteUpdateFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2889,7 +2898,9 @@ id noState
 id none
 id normal
 id north
+id noteAddFragment
 id noteListFragment
+id noteUpdateFragment
 id note_app
 id notification_background
 id notification_main_column
@@ -3044,8 +3055,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvDescription
 id tvId
 id tvNote
+id tvTitle
 id unchecked
 id uniform
 id unlabeled
@@ -3397,6 +3410,7 @@ string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string next
+string note
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3406,6 +3420,7 @@ string previous
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string title
 string title_activity_data_show_java
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

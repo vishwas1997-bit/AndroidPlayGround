@@ -1,47 +1,37 @@
-com/example/kotlindemo/databinding/ActivityRoomBindingImpl.java
- com.example.kotlindemo.databinding.ActivityRoomBindingImpl
+com/example/kotlindemo/RoomDatabaseDemo/data/Dao.java
+ com.example.kotlindemo.RoomDatabaseDemo.data.Dao
 com/example/kotlindemo/di/local/DataEntity.java
  com.example.kotlindemo.di.local.DataEntity
-com/example/kotlindemo/databinding/ActivityInsertDataBinding.java
- com.example.kotlindemo.databinding.ActivityInsertDataBinding
-com/example/kotlindemo/databinding/ActivityDataShowJava2Binding.java
- com.example.kotlindemo.databinding.ActivityDataShowJava2Binding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
-com/example/kotlindemo/databinding/CourseRvItemBinding.java
- com.example.kotlindemo.databinding.CourseRvItemBinding
 com/example/kotlindemo/di/module/NotesModule.java
  com.example.kotlindemo.di.module.NotesModule
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
-com/example/kotlindemo/databinding/FragmentNoteAddBinding.java
- com.example.kotlindemo.databinding.FragmentNoteAddBinding
-com/example/kotlindemo/databinding/ActivityThirdBindingImpl.java
- com.example.kotlindemo.databinding.ActivityThirdBindingImpl
-com/example/kotlindemo/databinding/ActivityRoomBinding.java
- com.example.kotlindemo.databinding.ActivityRoomBinding
-com/example/kotlindemo/databinding/ActivityFirstBinding.java
- com.example.kotlindemo.databinding.ActivityFirstBinding
-com/example/kotlindemo/databinding/ActivityFirstBindingImpl.java
- com.example.kotlindemo.databinding.ActivityFirstBindingImpl
+com/example/kotlindemo/notes_app/ui/fragment/NoteListFragment_MembersInjector.java
+ com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment_MembersInjector
+com/example/kotlindemo/BR.java
+ com.example.kotlindemo.BR
+com/example/kotlindemo/di/InsertDataActivity_MembersInjector.java
+ com.example.kotlindemo.di.InsertDataActivity_MembersInjector
+com/example/kotlindemo/di/component/NotesComponent.java
+ com.example.kotlindemo.di.component.NotesComponent
+com/example/kotlindemo/di/module/NotesModule_ProvideSharedPreferencesFactory.java
+ com.example.kotlindemo.di.module.NotesModule_ProvideSharedPreferencesFactory
 com/example/kotlindemo/RoomDatabaseDemo/viewmodel/ViewModal.java
  com.example.kotlindemo.RoomDatabaseDemo.viewmodel.ViewModal
-com/example/kotlindemo/databinding/ActivityMainBindingImpl.java
- com.example.kotlindemo.databinding.ActivityMainBindingImpl
-com/example/kotlindemo/databinding/ActivityNoteBindingImpl.java
- com.example.kotlindemo.databinding.ActivityNoteBindingImpl
-com/example/kotlindemo/RoomDatabaseDemo/adapter/CourseRVAdapter.java
- com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter
- com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$1
- com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$OnItemClickListener
- com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$ViewHolder
- com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$ViewHolder$1
-com/example/kotlindemo/databinding/ActivityNewCourseBinding.java
- com.example.kotlindemo.databinding.ActivityNewCourseBinding
-com/example/kotlindemo/databinding/ActivityNoteBinding.java
- com.example.kotlindemo.databinding.ActivityNoteBinding
-com/example/kotlindemo/databinding/FragmentNoteListBinding.java
- com.example.kotlindemo.databinding.FragmentNoteListBinding
+com/example/kotlindemo/notes_app/di/component/DaggerFragmentComponent.java
+ com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent
+ com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent$1
+ com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent$Builder
+com/example/kotlindemo/BuildConfig.java
+ com.example.kotlindemo.BuildConfig
+com/example/kotlindemo/di/local/NoteDatabase.java
+ com.example.kotlindemo.di.local.NoteDatabase
+com/example/kotlindemo/di/module/NotesModule_GetNotesDbFactory.java
+ com.example.kotlindemo.di.module.NotesModule_GetNotesDbFactory
+com/example/kotlindemo/di/local/DataDao.java
+ com.example.kotlindemo.di.local.DataDao
 com/example/kotlindemo/DataBindingTriggerClass.java
  com.example.kotlindemo.DataBindingTriggerClass
 com/example/kotlindemo/notes_app/di/component/DaggerActivityComponent.java
@@ -66,6 +56,76 @@ com/example/kotlindemo/di/component/DaggerNotesComponent.java
  com.example.kotlindemo.di.component.DaggerNotesComponent$Builder
 com/example/kotlindemo/RoomDatabaseDemo/data/CourseModal.java
  com.example.kotlindemo.RoomDatabaseDemo.data.CourseModal
+com/example/kotlindemo/notes_app/ui/base/BaseFragment_MembersInjector.java
+ com.example.kotlindemo.notes_app.ui.base.BaseFragment_MembersInjector
+com/example/kotlindemo/di/module/NotesModule_ProvideContextFactory.java
+ com.example.kotlindemo.di.module.NotesModule_ProvideContextFactory
+com/example/kotlindemo/databinding/ActivityDataShowBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityDataShowBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/kotlindemo/notes_app/di/module/FragmentModule_ProvideNoteViewModelFactory.java
+ com.example.kotlindemo.notes_app.di.module.FragmentModule_ProvideNoteViewModelFactory
+com/example/kotlindemo/notes_app/di/component/DaggerAppComponent.java
+ com.example.kotlindemo.notes_app.di.component.DaggerAppComponent
+ com.example.kotlindemo.notes_app.di.component.DaggerAppComponent$1
+ com.example.kotlindemo.notes_app.di.component.DaggerAppComponent$Builder
+com/example/kotlindemo/notes_app/di/module/ActivityModule_ProvideNoteViewModelFactory.java
+ com.example.kotlindemo.notes_app.di.module.ActivityModule_ProvideNoteViewModelFactory
+com/example/kotlindemo/notes_app/ui/fragment/NoteAddFragment_MembersInjector.java
+ com.example.kotlindemo.notes_app.ui.fragment.NoteAddFragment_MembersInjector
+com/example/kotlindemo/databinding/ActivityRoomBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityRoomBindingImpl
+com/example/kotlindemo/rxjava/ui/SimpleAPICallActivity.java
+ com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity
+ com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity$1
+ com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity$2
+com/example/kotlindemo/di/InsertDataActivity.java
+ com.example.kotlindemo.di.InsertDataActivity
+com/example/kotlindemo/databinding/FragmentNoteAddBinding.java
+ com.example.kotlindemo.databinding.FragmentNoteAddBinding
+com/example/kotlindemo/databinding/ActivityDataShowBinding.java
+ com.example.kotlindemo.databinding.ActivityDataShowBinding
+com/example/kotlindemo/databinding/ActivityTwoApiCallBinding.java
+ com.example.kotlindemo.databinding.ActivityTwoApiCallBinding
+com/example/kotlindemo/databinding/ActivityThirdBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityThirdBindingImpl
+com/example/kotlindemo/databinding/ActivityRoomBinding.java
+ com.example.kotlindemo.databinding.ActivityRoomBinding
+com/example/kotlindemo/databinding/ActivityFirstBinding.java
+ com.example.kotlindemo.databinding.ActivityFirstBinding
+com/example/kotlindemo/databinding/ActivityFirstBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityFirstBindingImpl
+com/example/kotlindemo/databinding/ActivityMainBinding.java
+ com.example.kotlindemo.databinding.ActivityMainBinding
+com/example/kotlindemo/DataBinderMapperImpl.java
+ com.example.kotlindemo.DataBinderMapperImpl
+ com.example.kotlindemo.DataBinderMapperImpl$InnerBrLookup
+ com.example.kotlindemo.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/kotlindemo/databinding/ActivityMainBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityMainBindingImpl
+com/example/kotlindemo/databinding/ActivityNoteBindingImpl.java
+ com.example.kotlindemo.databinding.ActivityNoteBindingImpl
+com/example/kotlindemo/RoomDatabaseDemo/adapter/CourseRVAdapter.java
+ com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter
+ com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$1
+ com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$OnItemClickListener
+ com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$ViewHolder
+ com.example.kotlindemo.RoomDatabaseDemo.adapter.CourseRVAdapter$ViewHolder$1
+com/example/kotlindemo/databinding/ActivityNoteBinding.java
+ com.example.kotlindemo.databinding.ActivityNoteBinding
+com/example/kotlindemo/databinding/FragmentNoteListBinding.java
+ com.example.kotlindemo.databinding.FragmentNoteListBinding
+com/example/kotlindemo/databinding/FragmentNoteAddBindingImpl.java
+ com.example.kotlindemo.databinding.FragmentNoteAddBindingImpl
+com/example/kotlindemo/databinding/ActivitySecondBinding.java
+ com.example.kotlindemo.databinding.ActivitySecondBinding
+com/example/kotlindemo/rxjava/ui/MultipleApiCallActivity.java
+ com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity
+ com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$1
+ com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$2
+ com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$3
+ com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$4
 com/example/kotlindemo/databinding/ActivityThirdBinding.java
  com.example.kotlindemo.databinding.ActivityThirdBinding
 com/example/kotlindemo/databinding/ActivityTwoApiCallBindingImpl.java
@@ -76,76 +136,10 @@ com/example/kotlindemo/RoomDatabaseDemo/ui/RoomActivity.java
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$2
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$3
  com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity$4
-com/example/kotlindemo/notes_app/di/module/FragmentModule_ProvideNoteViewModelFactory.java
- com.example.kotlindemo.notes_app.di.module.FragmentModule_ProvideNoteViewModelFactory
-com/example/kotlindemo/databinding/ActivitySecondBindingImpl.java
- com.example.kotlindemo.databinding.ActivitySecondBindingImpl
-com/example/kotlindemo/notes_app/di/module/ActivityModule_ProvideNoteViewModelFactory.java
- com.example.kotlindemo.notes_app.di.module.ActivityModule_ProvideNoteViewModelFactory
-com/example/kotlindemo/rxjava/ui/SimpleAPICallActivity.java
- com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity
- com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity$1
- com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity$2
-com/example/kotlindemo/notes_app/di/component/DaggerAppComponent.java
- com.example.kotlindemo.notes_app.di.component.DaggerAppComponent
- com.example.kotlindemo.notes_app.di.component.DaggerAppComponent$1
- com.example.kotlindemo.notes_app.di.component.DaggerAppComponent$Builder
-com/example/kotlindemo/di/module/NotesModule_ProvideContextFactory.java
- com.example.kotlindemo.di.module.NotesModule_ProvideContextFactory
-com/example/kotlindemo/di/InsertDataActivity.java
- com.example.kotlindemo.di.InsertDataActivity
-com/example/kotlindemo/databinding/ActivityDataShowBindingImpl.java
- com.example.kotlindemo.databinding.ActivityDataShowBindingImpl
-com/example/kotlindemo/databinding/ActivityDataShowBinding.java
- com.example.kotlindemo.databinding.ActivityDataShowBinding
-com/example/kotlindemo/databinding/ActivityTwoApiCallBinding.java
- com.example.kotlindemo.databinding.ActivityTwoApiCallBinding
-com/example/kotlindemo/di/component/NotesComponent.java
- com.example.kotlindemo.di.component.NotesComponent
-com/example/kotlindemo/di/module/NotesModule_ProvideSharedPreferencesFactory.java
- com.example.kotlindemo.di.module.NotesModule_ProvideSharedPreferencesFactory
-com/example/kotlindemo/databinding/ActivityMainBinding.java
- com.example.kotlindemo.databinding.ActivityMainBinding
-com/example/kotlindemo/DataBinderMapperImpl.java
- com.example.kotlindemo.DataBinderMapperImpl
- com.example.kotlindemo.DataBinderMapperImpl$InnerBrLookup
- com.example.kotlindemo.DataBinderMapperImpl$InnerLayoutIdLookup
-com/example/kotlindemo/di/local/NoteDatabase.java
- com.example.kotlindemo.di.local.NoteDatabase
-com/example/kotlindemo/databinding/ActivityDataFetchBinding.java
- com.example.kotlindemo.databinding.ActivityDataFetchBinding
-com/example/kotlindemo/BuildConfig.java
- com.example.kotlindemo.BuildConfig
-com/example/kotlindemo/notes_app/di/component/DaggerFragmentComponent.java
- com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent
- com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent$1
- com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent$Builder
-com/example/kotlindemo/di/module/NotesModule_GetNotesDbFactory.java
- com.example.kotlindemo.di.module.NotesModule_GetNotesDbFactory
-com/example/kotlindemo/di/local/DataDao.java
- com.example.kotlindemo.di.local.DataDao
-com/example/kotlindemo/databinding/ActivityExampleBinding.java
- com.example.kotlindemo.databinding.ActivityExampleBinding
-com/example/kotlindemo/databinding/ActivitySecondBinding.java
- com.example.kotlindemo.databinding.ActivitySecondBinding
-com/example/kotlindemo/di/InsertDataActivity_MembersInjector.java
- com.example.kotlindemo.di.InsertDataActivity_MembersInjector
-com/example/kotlindemo/BR.java
- com.example.kotlindemo.BR
-com/example/kotlindemo/rxjava/ui/MultipleApiCallActivity.java
- com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity
- com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$1
- com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$2
- com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$3
- com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity$4
 com/example/kotlindemo/RoomDatabaseDemo/ui/NewCourseActivity.java
  com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity
  com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity$1
+com/example/kotlindemo/databinding/ActivitySecondBindingImpl.java
+ com.example.kotlindemo.databinding.ActivitySecondBindingImpl
 com/example/kotlindemo/databinding/FragmentNoteListBindingImpl.java
  com.example.kotlindemo.databinding.FragmentNoteListBindingImpl
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-com/example/kotlindemo/RoomDatabaseDemo/data/Dao.java
- com.example.kotlindemo.RoomDatabaseDemo.data.Dao
-com/example/kotlindemo/databinding/ActivityFourthBinding.java
- com.example.kotlindemo.databinding.ActivityFourthBinding

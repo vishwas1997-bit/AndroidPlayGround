@@ -9,5 +9,23 @@
         android:id="@+id/noteListFragment"
         android:name="com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment"
         android:label="fragment_note_list"
-        tools:layout="@layout/fragment_note_list" />
+        tools:layout="@layout/fragment_note_list" >
+        <action
+            android:id="@+id/action_noteListFragment_to_noteAddFragment"
+            app:destination="@id/noteAddFragment"
+            app:enterAnim="@anim/slide_right" />
+        <action
+            android:id="@+id/action_noteListFragment_to_noteUpdateFragment"
+            app:destination="@id/noteUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteAddFragment"
+        android:name="com.example.kotlindemo.notes_app.ui.fragment.NoteAddFragment"
+        android:label="NoteAddFragment" />
+    <fragment
+        android:id="@+id/noteUpdateFragment"
+        android:name="com.example.kotlindemo.notes_app.ui.fragment.NoteUpdateFragment"
+        android:label="NoteUpdateFragment" />
+
+
 </navigation>

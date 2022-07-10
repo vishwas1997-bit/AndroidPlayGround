@@ -12,12 +12,12 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_fourth.xml"
     },
     {
-        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_data_fetch.xml.flat",
-        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_fetch.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_note_list.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\fragment_note_list.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_data_fetch.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_data_fetch.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_two_api_call.xml.flat",
@@ -38,6 +38,10 @@
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_in.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -72,24 +76,24 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_insert_data.xml.flat",
-        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_insert_data.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_insert_data.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_insert_data.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_first.xml.flat",
-        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_first.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_first.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_first.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_example.xml.flat",
@@ -120,12 +124,24 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\navigation\\nav_notes.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_out.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_third.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_third.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_left.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\anim\\slide_left.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_course_rv_item.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\course_rv_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_right.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\anim\\slide_right.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

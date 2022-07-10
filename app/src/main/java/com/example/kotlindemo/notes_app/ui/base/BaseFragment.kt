@@ -12,11 +12,14 @@ import com.example.kotlindemo.notes_app.App
 import com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent
 import com.example.kotlindemo.notes_app.di.component.FragmentComponent
 import com.example.kotlindemo.notes_app.di.module.FragmentModule
+import javax.inject.Inject
 
-abstract class BaseFragment<T : ViewDataBinding,V : BaseViewModel> : Fragment() {
+abstract class BaseFragment<B : ViewDataBinding,V : BaseViewModel<*>> : Fragment() {
 
-    lateinit var mViewDataBinding : T
-    private var mViewModel: V? = null
+    private lateinit var mViewDataBinding : B
+
+    @set:Inject
+    var mViewModel: V? = null
     lateinit var mRootView : View
 
     @LayoutRes
@@ -24,7 +27,7 @@ abstract class BaseFragment<T : ViewDataBinding,V : BaseViewModel> : Fragment() 
 
     abstract fun getBindingVariable() : Int
 
-    fun getViewDataBinding() : T{
+    fun getViewDataBinding() : B{
         return mViewDataBinding
     }
 

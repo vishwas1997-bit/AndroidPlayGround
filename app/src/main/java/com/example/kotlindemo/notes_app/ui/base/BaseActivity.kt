@@ -11,7 +11,7 @@ import com.example.kotlindemo.notes_app.di.component.ActivityComponent
 import com.example.kotlindemo.notes_app.di.component.DaggerActivityComponent
 import com.example.kotlindemo.notes_app.di.module.ActivityModule
 
-abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel> : AppCompatActivity() {
+abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel<*>> : AppCompatActivity() {
 
     lateinit var mViewDataBinding : T
     var mViewModel: V? = null
