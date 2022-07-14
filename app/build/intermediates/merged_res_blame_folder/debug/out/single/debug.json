@@ -108,12 +108,24 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_work_manager.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_work_manager.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_alarm.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_alarm.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_course.xml.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_new_course.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_note_item.xml.flat",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\note_item.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note.xml.flat",

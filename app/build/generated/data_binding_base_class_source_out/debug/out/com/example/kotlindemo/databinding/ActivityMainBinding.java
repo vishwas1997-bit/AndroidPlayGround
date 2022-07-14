@@ -15,16 +15,24 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
+  public final Button alarmApp;
+
+  @NonNull
   public final Button btnDataFetch;
 
   @NonNull
   public final Button noteApp;
 
+  @NonNull
+  public final Button workManagerApp;
+
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnDataFetch, Button noteApp) {
+      Button alarmApp, Button btnDataFetch, Button noteApp, Button workManagerApp) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.alarmApp = alarmApp;
     this.btnDataFetch = btnDataFetch;
     this.noteApp = noteApp;
+    this.workManagerApp = workManagerApp;
   }
 
   @NonNull

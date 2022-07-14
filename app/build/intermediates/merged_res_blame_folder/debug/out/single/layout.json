@@ -28,6 +28,10 @@
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_third.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_item.xml",
+        "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\note_item.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
         "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\layout\\activity_second.xml"
     },

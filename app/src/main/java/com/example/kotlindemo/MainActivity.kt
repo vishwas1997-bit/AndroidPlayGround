@@ -10,9 +10,11 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
+import com.example.kotlindemo.alarm_manager.AlarmActivity
 import com.example.kotlindemo.databinding.ActivityMainBinding
 import com.example.kotlindemo.lauchmodedemo.FirstActivity
 import com.example.kotlindemo.notes_app.NoteActivity
+import com.example.kotlindemo.workmanager.WorkManagerActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,6 +32,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.noteApp.setOnClickListener {
             startActivity(Intent(this@MainActivity, NoteActivity::class.java))
+        }
+
+        binding.alarmApp.setOnClickListener {
+            startActivity(Intent(this@MainActivity, AlarmActivity::class.java))
+        }
+
+        binding.workManagerApp.setOnClickListener {
+            startActivity(Intent(this@MainActivity, WorkManagerActivity::class.java))
         }
     }
 

@@ -94,6 +94,10 @@ dependencies {
     implementation "com.google.dagger:dagger:2.28.3"
     annotationProcessor "com.google.dagger:dagger-compiler:2.16"
 
+    // work manager
+    implementation "android.arch.work:work-runtime:1.0.1"
+
+
 
     //LifeCycle
 //    implementation 'androidx.lifecycle:lifecycle-common:2.4.0'

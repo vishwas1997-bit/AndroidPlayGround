@@ -8,14 +8,22 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
+        android:name=".notes_app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KotlinDemo"
-        android:name=".notes_app.App">
+        android:theme="@style/Theme.KotlinDemo">
+        <activity
+            android:name=".alarm_manager.AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".workmanager.WorkManagerActivity"
+            android:exported="false" />
         <activity
             android:name=".notes_app.NoteActivity"
             android:exported="false" />

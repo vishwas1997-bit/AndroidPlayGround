@@ -1210,6 +1210,8 @@ int attr yearStyle 0x7f03046c
 int attr yearTodayStyle 0x7f03046d
 int bool abc_action_bar_embed_tabs 0x7f040000
 int bool abc_config_actionMenuItemAllCaps 0x7f040001
+int bool enable_system_alarm_service_default 0x7f040012
+int bool enable_system_job_service_default 0x7f040013
 int bool m3_sys_typescale_body_large_text_all_caps 0x7f040002
 int bool m3_sys_typescale_body_medium_text_all_caps 0x7f040003
 int bool m3_sys_typescale_body_small_text_all_caps 0x7f040004
@@ -1226,6 +1228,7 @@ int bool m3_sys_typescale_title_large_text_all_caps 0x7f04000e
 int bool m3_sys_typescale_title_medium_text_all_caps 0x7f04000f
 int bool m3_sys_typescale_title_small_text_all_caps 0x7f040010
 int bool mtrl_btn_textappearance_all_caps 0x7f040011
+int bool workmanager_test_configuration 0x7f040014
 int color abc_background_cache_hint_selector_material_dark 0x7f050000
 int color abc_background_cache_hint_selector_material_light 0x7f050001
 int color abc_btn_colored_borderless_text_material 0x7f050002
@@ -1968,6 +1971,7 @@ int dimen design_textinput_caption_translate_y 0x7f06008f
 int dimen dimen_16dp 0x7f06024d
 int dimen dimen_32dp 0x7f060090
 int dimen dimen_4dp 0x7f060091
+int dimen dimen_8dp 0x7f06024e
 int dimen disabled_alpha_material_dark 0x7f060092
 int dimen disabled_alpha_material_light 0x7f060093
 int dimen fab_margin 0x7f060094
@@ -2635,6 +2639,7 @@ int id action_text 0x7f080045
 int id actions 0x7f080046
 int id activity_chooser_view_content 0x7f080047
 int id add 0x7f080048
+int id alarm_app 0x7f080206
 int id alertTitle 0x7f080049
 int id aligned 0x7f08004a
 int id all 0x7f08004b
@@ -2667,6 +2672,8 @@ int id btn 0x7f080065
 int id btnGet 0x7f080066
 int id btnSave 0x7f080067
 int id btn_dataFetch 0x7f080068
+int id buttonEnqueue 0x7f080207
+int id buttonEnqueuePeriodic 0x7f08020d
 int id buttonPanel 0x7f080069
 int id cache_measures 0x7f08006a
 int id callMeasure 0x7f08006b
@@ -3028,6 +3035,7 @@ int id textSpacerNoButtons 0x7f0801ce
 int id textSpacerNoTitle 0x7f0801cf
 int id textStart 0x7f0801d0
 int id textTop 0x7f0801d1
+int id textViewStatus 0x7f080208
 int id textWatcher 0x7f0801d2
 int id text_input_end_icon 0x7f0801d3
 int id text_input_error_icon 0x7f0801d4
@@ -3039,10 +3047,12 @@ int id textinput_placeholder 0x7f0801d9
 int id textinput_prefix_text 0x7f0801da
 int id textinput_suffix_text 0x7f0801db
 int id time 0x7f0801dc
+int id timePicker 0x7f080209
 int id title 0x7f0801dd
 int id titleDividerNoCustom 0x7f0801de
 int id title_template 0x7f0801df
 int id toggle 0x7f0801e0
+int id toggleButton 0x7f08020a
 int id top 0x7f0801e1
 int id topPanel 0x7f0801e2
 int id touch_outside 0x7f0801e3
@@ -3054,6 +3064,7 @@ int id transition_position 0x7f0801e8
 int id transition_scene_layoutid_cache 0x7f0801e9
 int id transition_transform 0x7f0801ea
 int id triangle 0x7f0801eb
+int id tvDesc 0x7f08020b
 int id tvDescription 0x7f0801ec
 int id tvId 0x7f0801ed
 int id tvNote 0x7f0801ee
@@ -3074,6 +3085,7 @@ int id visible_removing_fragment_view_tag 0x7f0801fc
 int id west 0x7f0801fd
 int id withText 0x7f0801fe
 int id withinBounds 0x7f0801ff
+int id work_manager_app 0x7f08020c
 int id wrap 0x7f080200
 int id wrap_content 0x7f080201
 int id wrap_content_constrained 0x7f080202
@@ -3166,6 +3178,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_alarm 0x7f0b0084
 int layout activity_data_fetch 0x7f0b001c
 int layout activity_data_show 0x7f0b001d
 int layout activity_data_show_java2 0x7f0b001e
@@ -3180,6 +3193,7 @@ int layout activity_room 0x7f0b0026
 int layout activity_second 0x7f0b0027
 int layout activity_third 0x7f0b0028
 int layout activity_two_api_call 0x7f0b0029
+int layout activity_work_manager 0x7f0b0085
 int layout course_rv_item 0x7f0b002a
 int layout custom_dialog 0x7f0b002b
 int layout design_bottom_navigation_item 0x7f0b002c
@@ -3245,6 +3259,7 @@ int layout mtrl_picker_header_title_text 0x7f0b0067
 int layout mtrl_picker_header_toggle 0x7f0b0068
 int layout mtrl_picker_text_input_date 0x7f0b0069
 int layout mtrl_picker_text_input_date_range 0x7f0b006a
+int layout note_item 0x7f0b0086
 int layout notification_action 0x7f0b006b
 int layout notification_action_tombstone 0x7f0b006c
 int layout notification_template_custom_big 0x7f0b006d

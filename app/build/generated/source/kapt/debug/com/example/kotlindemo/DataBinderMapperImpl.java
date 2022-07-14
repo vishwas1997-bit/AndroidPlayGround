@@ -16,6 +16,7 @@ import com.example.kotlindemo.databinding.ActivityThirdBindingImpl;
 import com.example.kotlindemo.databinding.ActivityTwoApiCallBindingImpl;
 import com.example.kotlindemo.databinding.FragmentNoteAddBindingImpl;
 import com.example.kotlindemo.databinding.FragmentNoteListBindingImpl;
+import com.example.kotlindemo.databinding.NoteItemBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -47,7 +48,9 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTNOTELIST = 10;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(10);
+  private static final int LAYOUT_NOTEITEM = 11;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_data_show, LAYOUT_ACTIVITYDATASHOW);
@@ -60,6 +63,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_two_api_call, LAYOUT_ACTIVITYTWOAPICALL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.fragment_note_add, LAYOUT_FRAGMENTNOTEADD);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.fragment_note_list, LAYOUT_FRAGMENTNOTELIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.note_item, LAYOUT_NOTEITEM);
   }
 
   @Override
@@ -131,6 +135,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_note_list is invalid. Received: " + tag);
         }
+        case  LAYOUT_NOTEITEM: {
+          if ("layout/note_item_0".equals(tag)) {
+            return new NoteItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for note_item is invalid. Received: " + tag);
+        }
       }
     }
     return null;
@@ -184,7 +194,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(10);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
 
     static {
       sKeys.put("layout/activity_data_show_0", com.example.kotlindemo.R.layout.activity_data_show);
@@ -197,6 +207,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_two_api_call_0", com.example.kotlindemo.R.layout.activity_two_api_call);
       sKeys.put("layout/fragment_note_add_0", com.example.kotlindemo.R.layout.fragment_note_add);
       sKeys.put("layout/fragment_note_list_0", com.example.kotlindemo.R.layout.fragment_note_list);
+      sKeys.put("layout/note_item_0", com.example.kotlindemo.R.layout.note_item);
     }
   }
 }

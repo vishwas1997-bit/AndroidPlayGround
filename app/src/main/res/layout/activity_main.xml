@@ -27,6 +27,20 @@
             android:text="Note App"
             android:padding="@dimen/dimen_4dp"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alarm_app"
+            android:text="Alarm App"
+            android:padding="@dimen/dimen_4dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/work_manager_app"
+            android:text="Work Manager"
+            android:padding="@dimen/dimen_4dp"/>
+
     </LinearLayout>
 
 </ScrollView>

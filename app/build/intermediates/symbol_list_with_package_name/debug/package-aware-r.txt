@@ -1211,6 +1211,8 @@ attr yearStyle
 attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_job_service_default
 bool m3_sys_typescale_body_large_text_all_caps
 bool m3_sys_typescale_body_medium_text_all_caps
 bool m3_sys_typescale_body_small_text_all_caps
@@ -1227,6 +1229,7 @@ bool m3_sys_typescale_title_large_text_all_caps
 bool m3_sys_typescale_title_medium_text_all_caps
 bool m3_sys_typescale_title_small_text_all_caps
 bool mtrl_btn_textappearance_all_caps
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -1969,6 +1972,7 @@ dimen design_textinput_caption_translate_y
 dimen dimen_16dp
 dimen dimen_32dp
 dimen dimen_4dp
+dimen dimen_8dp
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fab_margin
@@ -2636,6 +2640,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id alarm_app
 id alertTitle
 id aligned
 id all
@@ -2668,6 +2673,8 @@ id btn
 id btnGet
 id btnSave
 id btn_dataFetch
+id buttonEnqueue
+id buttonEnqueuePeriodic
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3029,6 +3036,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewStatus
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3040,10 +3048,12 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timePicker
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleButton
 id top
 id topPanel
 id touch_outside
@@ -3055,6 +3065,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvDesc
 id tvDescription
 id tvId
 id tvNote
@@ -3075,6 +3086,7 @@ id visible_removing_fragment_view_tag
 id west
 id withText
 id withinBounds
+id work_manager_app
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -3167,6 +3179,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_alarm
 layout activity_data_fetch
 layout activity_data_show
 layout activity_data_show_java2
@@ -3181,6 +3194,7 @@ layout activity_room
 layout activity_second
 layout activity_third
 layout activity_two_api_call
+layout activity_work_manager
 layout course_rv_item
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3246,6 +3260,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout note_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
