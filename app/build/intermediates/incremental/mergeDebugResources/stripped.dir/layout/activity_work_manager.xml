@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workmanager.WorkManagerActivity">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/purple_200"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/buttonEnqueue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Enqueue Work"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonEnqueuePeriodic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonEnqueue"
+        android:layout_centerInParent="true"
+        android:text="Enqueue Periodic Work"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

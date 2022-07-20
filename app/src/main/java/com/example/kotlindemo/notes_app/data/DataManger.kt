@@ -1,4 +1,5 @@
 package com.example.kotlindemo.notes_app.data
 
-interface DataManger {
-}
+import com.example.kotlindemo.notes_app.data.db.DbHelper
+
+interface DataManger : DbHelper

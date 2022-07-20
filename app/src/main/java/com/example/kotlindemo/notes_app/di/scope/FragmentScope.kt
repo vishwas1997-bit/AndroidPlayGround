@@ -1,7 +1,7 @@
 package com.example.kotlindemo.notes_app.di.scope
 
-import javax.inject.Qualifier
+import javax.inject.Scope
 
-@Qualifier
-@kotlin.annotation.Retention(AnnotationRetention.RUNTIME)
+@Scope
+@Retention(AnnotationRetention.RUNTIME)
 annotation class FragmentScope()

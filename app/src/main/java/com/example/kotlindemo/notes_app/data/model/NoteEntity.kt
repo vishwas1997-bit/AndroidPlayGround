@@ -8,12 +8,10 @@ import androidx.room.PrimaryKey
 data class NoteEntity(
     @PrimaryKey(autoGenerate = true)
     var local_id: Int,
-    @ColumnInfo(name = "userId")
-    val userId: String? = null,
     @ColumnInfo(name = "description")
     val description: String? = null,
     @ColumnInfo(name = "date")
     val date: String? = null,
     @ColumnInfo(name = "title")
-    private val title: String? = null
+    val title: String? = null
 )

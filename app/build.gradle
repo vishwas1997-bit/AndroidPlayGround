@@ -82,17 +82,18 @@ dependencies {
     implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$rootProject.rxjava2Adapter"
 
     // room
-    implementation "androidx.room:room-runtime:$rootProject.roomVersion"
-    annotationProcessor "androidx.room:room-compiler:$rootProject.roomVersion"
+    implementation("androidx.room:room-runtime:$rootProject.roomVersion")
+    kapt("androidx.room:room-compiler:$rootProject.roomVersion")
+
+//    implementation "androidx.room:room-runtime:$rootProject.roomVersion"
+//    annotationProcessor "androidx.room:room-compiler:$rootProject.roomVersion"
     implementation "androidx.room:room-rxjava2:$rootProject.roomVersion"
     testImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 //    kapt "android.arch.persistence.room:compiler:1.1.1"
 
     // dependency injection
-    kapt 'com.google.dagger:dagger-android-processor:2.15'
-    kapt 'com.google.dagger:dagger-compiler:2.16'
-    implementation "com.google.dagger:dagger:2.28.3"
-    annotationProcessor "com.google.dagger:dagger-compiler:2.16"
+    implementation 'com.google.dagger:dagger:2.42'
+    kapt 'com.google.dagger:dagger-compiler:2.42'
 
     // work manager
     implementation "android.arch.work:work-runtime:1.0.1"

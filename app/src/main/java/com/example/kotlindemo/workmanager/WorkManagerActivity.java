@@ -44,6 +44,7 @@ public class WorkManagerActivity extends AppCompatActivity {
                 .putString(MyWorker.TASK_DESC, "The task data passed from MainActivity")
                 .build();
 
+        WorkManager.getInstance().cancelAllWork();
 
         //A click listener for the button
         //inside the onClick method we will perform the work
@@ -91,7 +92,7 @@ public class WorkManagerActivity extends AppCompatActivity {
 
     private void periodicWorkRequest(){
         periodicWorkRequest = new PeriodicWorkRequest
-                .Builder(MyWorker.class, 10, TimeUnit.SECONDS)
+                .Builder(MyWorker.class, 15, TimeUnit.MINUTES)
                 .setInputData(data)
                 .build();
 

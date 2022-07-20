@@ -1,10 +1,13 @@
 package com.example.kotlindemo.notes_app.data.db.dao
 
-import androidx.lifecycle.LiveData
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import com.example.kotlindemo.notes_app.data.model.NoteEntity
 import io.reactivex.Observable
 
+@Dao
 interface NoteDao {
 
     @Query("SELECT * FROM notes_table ORDER BY local_id DESC")

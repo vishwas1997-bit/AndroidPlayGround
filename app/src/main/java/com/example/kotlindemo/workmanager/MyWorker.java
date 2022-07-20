@@ -57,6 +57,7 @@ public class MyWorker extends Worker {
      * you should check the Android Notification Tutorial
      * */
     private void displayNotification(String title, String task) {
+        int notifyID = (int) (Math.random() * 1000000000);
         NotificationManager notificationManager = (NotificationManager) getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
@@ -67,8 +68,9 @@ public class MyWorker extends Worker {
         NotificationCompat.Builder notification = new NotificationCompat.Builder(getApplicationContext(), "simplifiedcoding")
                 .setContentTitle(title)
                 .setContentText(task)
-                .setSmallIcon(R.mipmap.ic_launcher);
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setGroupSummary(true);
 
-        notificationManager.notify(1, notification.build());
+        notificationManager.notify(notifyID, notification.build());
     }
 }
