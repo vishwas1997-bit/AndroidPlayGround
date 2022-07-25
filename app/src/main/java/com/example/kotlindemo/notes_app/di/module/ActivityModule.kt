@@ -2,7 +2,7 @@ package com.example.kotlindemo.notes_app.di.module
 
 import androidx.core.util.Supplier
 import androidx.lifecycle.ViewModelProvider
-import com.example.kotlindemo.Utils.rxJava.SchedulerProvider
+import com.example.kotlindemo.utils.rxJava.SchedulerProvider
 import com.example.kotlindemo.notes_app.NoteViewModel
 import com.example.kotlindemo.notes_app.ViewModelProviderFactory
 import com.example.kotlindemo.notes_app.data.DataManger

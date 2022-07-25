@@ -10,7 +10,6 @@ import com.example.kotlindemo.databinding.ActivityDataShowBindingImpl;
 import com.example.kotlindemo.databinding.ActivityFirstBindingImpl;
 import com.example.kotlindemo.databinding.ActivityMainBindingImpl;
 import com.example.kotlindemo.databinding.ActivityNoteBindingImpl;
-import com.example.kotlindemo.databinding.ActivityRoomBindingImpl;
 import com.example.kotlindemo.databinding.ActivitySecondBindingImpl;
 import com.example.kotlindemo.databinding.ActivityThirdBindingImpl;
 import com.example.kotlindemo.databinding.ActivityTwoApiCallBindingImpl;
@@ -36,28 +35,25 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYNOTE = 4;
 
-  private static final int LAYOUT_ACTIVITYROOM = 5;
+  private static final int LAYOUT_ACTIVITYSECOND = 5;
 
-  private static final int LAYOUT_ACTIVITYSECOND = 6;
+  private static final int LAYOUT_ACTIVITYTHIRD = 6;
 
-  private static final int LAYOUT_ACTIVITYTHIRD = 7;
+  private static final int LAYOUT_ACTIVITYTWOAPICALL = 7;
 
-  private static final int LAYOUT_ACTIVITYTWOAPICALL = 8;
+  private static final int LAYOUT_FRAGMENTNOTEADD = 8;
 
-  private static final int LAYOUT_FRAGMENTNOTEADD = 9;
+  private static final int LAYOUT_FRAGMENTNOTELIST = 9;
 
-  private static final int LAYOUT_FRAGMENTNOTELIST = 10;
+  private static final int LAYOUT_NOTEITEM = 10;
 
-  private static final int LAYOUT_NOTEITEM = 11;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(10);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_data_show, LAYOUT_ACTIVITYDATASHOW);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_first, LAYOUT_ACTIVITYFIRST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_note, LAYOUT_ACTIVITYNOTE);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_room, LAYOUT_ACTIVITYROOM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_second, LAYOUT_ACTIVITYSECOND);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_third, LAYOUT_ACTIVITYTHIRD);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlindemo.R.layout.activity_two_api_call, LAYOUT_ACTIVITYTWOAPICALL);
@@ -98,12 +94,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityNoteBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_note is invalid. Received: " + tag);
-        }
-        case  LAYOUT_ACTIVITYROOM: {
-          if ("layout/activity_room_0".equals(tag)) {
-            return new ActivityRoomBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for activity_room is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYSECOND: {
           if ("layout/activity_second_0".equals(tag)) {
@@ -194,14 +184,13 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(10);
 
     static {
       sKeys.put("layout/activity_data_show_0", com.example.kotlindemo.R.layout.activity_data_show);
       sKeys.put("layout/activity_first_0", com.example.kotlindemo.R.layout.activity_first);
       sKeys.put("layout/activity_main_0", com.example.kotlindemo.R.layout.activity_main);
       sKeys.put("layout/activity_note_0", com.example.kotlindemo.R.layout.activity_note);
-      sKeys.put("layout/activity_room_0", com.example.kotlindemo.R.layout.activity_room);
       sKeys.put("layout/activity_second_0", com.example.kotlindemo.R.layout.activity_second);
       sKeys.put("layout/activity_third_0", com.example.kotlindemo.R.layout.activity_third);
       sKeys.put("layout/activity_two_api_call_0", com.example.kotlindemo.R.layout.activity_two_api_call);

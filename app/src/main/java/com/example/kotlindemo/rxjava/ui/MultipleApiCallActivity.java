@@ -3,35 +3,26 @@ package com.example.kotlindemo.rxjava.ui;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-
 import com.example.kotlindemo.R;
-import com.example.kotlindemo.Utils.Constants;
 import com.example.kotlindemo.databinding.ActivityTwoApiCallBinding;
 import com.example.kotlindemo.rxjava.data.QuoteList;
 import com.example.kotlindemo.rxjava.data.UserModel;
 import com.example.kotlindemo.rxjava.networking.ApiClient;
 import com.example.kotlindemo.rxjava.networking.ApiInterface;
-
+import com.example.kotlindemo.utils.Constants;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.ObservableSource;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.BiFunction;
 import io.reactivex.functions.Function;
-import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 
 public class MultipleApiCallActivity extends AppCompatActivity {

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\AndroidProjects\\kotlinproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-43:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\7033f4c618a24bea9f8eac4e9a42ff20\\transformed\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\6ffde34fc1884cc94f04f9d234d587be\\transformed\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

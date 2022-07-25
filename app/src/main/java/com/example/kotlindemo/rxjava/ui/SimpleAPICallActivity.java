@@ -2,29 +2,22 @@ package com.example.kotlindemo.rxjava.ui;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlindemo.R;
-import com.example.kotlindemo.Utils.Constants;
+import com.example.kotlindemo.utils.Constants;
 import com.example.kotlindemo.rxjava.data.QuoteList;
 import com.example.kotlindemo.rxjava.data.UserModel;
 import com.example.kotlindemo.rxjava.networking.ApiClient;
 import com.example.kotlindemo.rxjava.networking.ApiInterface;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.Single;
-import io.reactivex.SingleEmitter;
-import io.reactivex.SingleObserver;
-import io.reactivex.SingleOnSubscribe;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 

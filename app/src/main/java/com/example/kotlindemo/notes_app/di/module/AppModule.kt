@@ -2,10 +2,9 @@ package com.example.kotlindemo.notes_app.di.module
 
 import android.app.Application
 import android.content.Context
-import androidx.annotation.Nullable
 import androidx.room.Room
-import com.example.kotlindemo.Utils.rxJava.AppSchedulerProvider
-import com.example.kotlindemo.Utils.rxJava.SchedulerProvider
+import com.example.kotlindemo.utils.rxJava.AppSchedulerProvider
+import com.example.kotlindemo.utils.rxJava.SchedulerProvider
 import com.example.kotlindemo.notes_app.data.AppDataManger
 import com.example.kotlindemo.notes_app.data.DataManger
 import com.example.kotlindemo.notes_app.data.db.AppDatabase

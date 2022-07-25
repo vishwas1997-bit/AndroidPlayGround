@@ -1,7 +1,7 @@
 package com.example.kotlindemo.notes_app.ui.base
 
 import androidx.lifecycle.ViewModel
-import com.example.kotlindemo.Utils.rxJava.SchedulerProvider
+import com.example.kotlindemo.utils.rxJava.SchedulerProvider
 import com.example.kotlindemo.notes_app.data.DataManger
 import io.reactivex.disposables.CompositeDisposable
 import java.lang.ref.WeakReference
@@ -26,16 +26,16 @@ abstract class BaseViewModel<N>(
         this.mNavigator = WeakReference(navigator)
     }
 
-    open fun getCompositeDisposable(): CompositeDisposable? {
+    fun getCompositeDisposable(): CompositeDisposable {
         return compositeDisposable
     }
 
-    fun getDataManager(): DataManger? {
+    fun getDataManager(): DataManger {
         return dataManger
     }
 
     @JvmName("getSchedulerProvider1")
-    fun getSchedulerProvider(): SchedulerProvider? {
+    fun getSchedulerProvider(): SchedulerProvider {
         return schedulerProvider
     }
 }

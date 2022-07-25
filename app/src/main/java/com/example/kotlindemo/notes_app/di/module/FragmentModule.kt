@@ -3,7 +3,8 @@ package com.example.kotlindemo.notes_app.di.module
 import androidx.core.util.Supplier
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.kotlindemo.Utils.rxJava.SchedulerProvider
+import com.example.kotlindemo.notes_app.NoteListAdapter
+import com.example.kotlindemo.utils.rxJava.SchedulerProvider
 import com.example.kotlindemo.notes_app.NoteViewModel
 import com.example.kotlindemo.notes_app.ViewModelProviderFactory
 import com.example.kotlindemo.notes_app.data.DataManger
@@ -26,5 +27,10 @@ class FragmentModule(val fragment: BaseFragment<*,*>) {
     @Provides
     fun provideLinearLayoutManager() : LinearLayoutManager{
         return LinearLayoutManager(fragment.activity)
+    }
+
+    @Provides
+    fun provideNoteListAdapter() : NoteListAdapter{
+        return NoteListAdapter()
     }
 }

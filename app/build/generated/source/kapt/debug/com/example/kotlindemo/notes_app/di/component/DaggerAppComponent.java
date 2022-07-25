@@ -3,7 +3,6 @@ package com.example.kotlindemo.notes_app.di.component;
 
 import android.app.Application;
 import android.content.Context;
-import com.example.kotlindemo.Utils.rxJava.SchedulerProvider;
 import com.example.kotlindemo.notes_app.App;
 import com.example.kotlindemo.notes_app.data.AppDataManger;
 import com.example.kotlindemo.notes_app.data.AppDataManger_Factory;
@@ -18,6 +17,7 @@ import com.example.kotlindemo.notes_app.di.module.AppModule_ProvideDataMangerFac
 import com.example.kotlindemo.notes_app.di.module.AppModule_ProvideDbHelperFactory;
 import com.example.kotlindemo.notes_app.di.module.AppModule_ProvideNoteDbFactory;
 import com.example.kotlindemo.notes_app.di.module.AppModule_ProvideSchedulerFactory;
+import com.example.kotlindemo.utils.rxJava.SchedulerProvider;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
 import dagger.internal.InstanceFactory;

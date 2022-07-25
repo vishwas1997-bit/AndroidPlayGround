@@ -19,7 +19,7 @@ private const val ARG_PARAM2 = "param2"
 
 class NoteAddFragment : BaseFragment<FragmentNoteAddBinding, NoteViewModel>() {
 
-    lateinit var mFragmentNoteListBinding: FragmentNoteAddBinding
+    lateinit var mFragmentNoteBinding: FragmentNoteAddBinding
 
     private var param1: String? = null
     private var param2: String? = null
@@ -45,7 +45,7 @@ class NoteAddFragment : BaseFragment<FragmentNoteAddBinding, NoteViewModel>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mFragmentNoteListBinding = getViewDataBinding();
+        mFragmentNoteBinding = getViewDataBinding()
     }
 
     override fun getLayoutId(): Int {
@@ -58,5 +58,10 @@ class NoteAddFragment : BaseFragment<FragmentNoteAddBinding, NoteViewModel>() {
 
     override fun performDependencyInjection(buildComponent: FragmentComponent) {
         buildComponent.inject(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mViewModel?.addNote(mFragmentNoteBinding.tvDescription.text.toString(),mFragmentNoteBinding.tvTitle.text.toString())
     }
 }

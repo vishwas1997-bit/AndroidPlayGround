@@ -19,7 +19,7 @@ public class NoteItemBindingImpl extends NoteItemBinding  {
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final com.google.android.material.card.MaterialCardView mboundView0;
     // variables
     // values
     // listeners
@@ -33,7 +33,7 @@ public class NoteItemBindingImpl extends NoteItemBinding  {
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[1]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (com.google.android.material.card.MaterialCardView) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

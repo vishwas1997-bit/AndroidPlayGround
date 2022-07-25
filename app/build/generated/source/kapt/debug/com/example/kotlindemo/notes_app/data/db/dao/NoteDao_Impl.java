@@ -34,26 +34,21 @@ public final class NoteDao_Impl implements NoteDao {
     this.__insertionAdapterOfNoteEntity = new EntityInsertionAdapter<NoteEntity>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR REPLACE INTO `notes_table` (`local_id`,`description`,`date`,`title`) VALUES (nullif(?, 0),?,?,?)";
+        return "INSERT OR REPLACE INTO `notes_table` (`local_id`,`title`,`description`) VALUES (nullif(?, 0),?,?)";
       }
 
       @Override
       public void bind(SupportSQLiteStatement stmt, NoteEntity value) {
         stmt.bindLong(1, value.getLocal_id());
-        if (value.getDescription() == null) {
+        if (value.getTitle() == null) {
           stmt.bindNull(2);
         } else {
-          stmt.bindString(2, value.getDescription());
+          stmt.bindString(2, value.getTitle());
         }
-        if (value.getDate() == null) {
+        if (value.getDescription() == null) {
           stmt.bindNull(3);
         } else {
-          stmt.bindString(3, value.getDate());
-        }
-        if (value.getTitle() == null) {
-          stmt.bindNull(4);
-        } else {
-          stmt.bindString(4, value.getTitle());
+          stmt.bindString(3, value.getDescription());
         }
       }
     };
@@ -102,33 +97,26 @@ public final class NoteDao_Impl implements NoteDao {
         final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
         try {
           final int _cursorIndexOfLocalId = CursorUtil.getColumnIndexOrThrow(_cursor, "local_id");
-          final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
-          final int _cursorIndexOfDate = CursorUtil.getColumnIndexOrThrow(_cursor, "date");
           final int _cursorIndexOfTitle = CursorUtil.getColumnIndexOrThrow(_cursor, "title");
+          final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
           final List<NoteEntity> _result = new ArrayList<NoteEntity>(_cursor.getCount());
           while(_cursor.moveToNext()) {
             final NoteEntity _item;
             final int _tmpLocal_id;
             _tmpLocal_id = _cursor.getInt(_cursorIndexOfLocalId);
-            final String _tmpDescription;
-            if (_cursor.isNull(_cursorIndexOfDescription)) {
-              _tmpDescription = null;
-            } else {
-              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
-            }
-            final String _tmpDate;
-            if (_cursor.isNull(_cursorIndexOfDate)) {
-              _tmpDate = null;
-            } else {
-              _tmpDate = _cursor.getString(_cursorIndexOfDate);
-            }
             final String _tmpTitle;
             if (_cursor.isNull(_cursorIndexOfTitle)) {
               _tmpTitle = null;
             } else {
               _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
             }
-            _item = new NoteEntity(_tmpLocal_id,_tmpDescription,_tmpDate,_tmpTitle);
+            final String _tmpDescription;
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
+            _item = new NoteEntity(_tmpLocal_id,_tmpTitle,_tmpDescription);
             _result.add(_item);
           }
           return _result;

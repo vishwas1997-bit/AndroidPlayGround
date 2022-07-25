@@ -1,18 +1,21 @@
 package com.example.kotlindemo.notes_app.ui.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import androidx.lifecycle.Observer
 import androidx.navigation.Navigation
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kotlindemo.BR
 import com.example.kotlindemo.R
 import com.example.kotlindemo.databinding.FragmentNoteListBinding
+import com.example.kotlindemo.notes_app.NoteListAdapter
 import com.example.kotlindemo.notes_app.NoteViewModel
 import com.example.kotlindemo.notes_app.di.component.FragmentComponent
 import com.example.kotlindemo.notes_app.ui.NoteNavigator
 import com.example.kotlindemo.notes_app.ui.base.BaseFragment
+import javax.inject.Inject
+import javax.inject.Provider
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -24,12 +27,19 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
     private var param1: String? = null
     private var param2: String? = null
 
+    @set:Inject
+    var mLayoutManager : Provider<LinearLayoutManager>? = null
+
+    @set:Inject
+    var mAdapter : NoteListAdapter? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        mViewModel?.setNavigator(this)
     }
 
     companion object {
@@ -46,9 +56,9 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         mFragmentNoteListBinding = getViewDataBinding()
-        mViewModel?.setNavigator(this)
+        setUp()
         mFragmentNoteListBinding.fabBtn.setOnClickListener {
-            mViewModel?.addNote()
+            mViewModel?.onAddNoteClick()
         }
     }
 
@@ -73,5 +83,18 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
 
     override fun openUpdateNoteFragment() {
         TODO("Not yet implemented")
+    }
+
+    private fun setUp(){
+        mLayoutManager?.get()?.orientation = LinearLayoutManager.VERTICAL
+        mFragmentNoteListBinding.rvNote.layoutManager = mLayoutManager?.get()
+        mFragmentNoteListBinding.rvNote.itemAnimator = DefaultItemAnimator()
+        mFragmentNoteListBinding.rvNote.adapter = mAdapter
+
+        mViewModel?.getNoteLiveData()?.observe(viewLifecycleOwner) {
+            if (it != null) {
+                mAdapter?.addItems(it)
+            }
+        }
     }
 }
