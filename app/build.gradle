@@ -63,9 +63,6 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationFragmentKtx"
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationUiKtx"
-    testImplementation 'junit:junit:'
-    androidTestImplementation "androidx.test.ext:junit:$rootProject.junitVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoCoreVersion"
 
     //Retrofit
     implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
@@ -88,9 +85,17 @@ dependencies {
     testImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 
     // dependency injection
-    implementation 'com.google.dagger:dagger:2.42'
-    kapt 'com.google.dagger:dagger-compiler:2.42'
+    implementation "com.google.dagger:dagger:$rootProject.dagger2_version"
+    kapt "com.google.dagger:dagger-compiler:$rootProject.dagger2_version"
 
     // work manager
     implementation("androidx.work:work-runtime-ktx:$rootProject.work_version")
+
+    // UI Testing
+    testImplementation 'junit:junit:'
+    androidTestImplementation "androidx.test.ext:junit:$rootProject.junitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoCoreVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoCoreVersion"
+    androidTestImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2_version"
 }
