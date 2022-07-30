@@ -91,6 +91,9 @@ dependencies {
     // work manager
     implementation("androidx.work:work-runtime-ktx:$rootProject.work_version")
 
+    //floating action button
+    implementation "com.github.clans:fab:$rootProject.float_action_button_third_party"
+
     // UI Testing
     testImplementation 'junit:junit:'
     androidTestImplementation "androidx.test.ext:junit:$rootProject.junitVersion"

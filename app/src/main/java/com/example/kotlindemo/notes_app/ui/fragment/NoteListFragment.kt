@@ -1,8 +1,9 @@
 package com.example.kotlindemo.notes_app.ui.fragment
 
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
-import androidx.lifecycle.Observer
+import android.view.animation.AnimationUtils
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,6 +17,7 @@ import com.example.kotlindemo.notes_app.ui.NoteNavigator
 import com.example.kotlindemo.notes_app.ui.base.BaseFragment
 import javax.inject.Inject
 import javax.inject.Provider
+
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -90,6 +92,12 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
         mFragmentNoteListBinding.rvNote.layoutManager = mLayoutManager?.get()
         mFragmentNoteListBinding.rvNote.itemAnimator = DefaultItemAnimator()
         mFragmentNoteListBinding.rvNote.adapter = mAdapter
+
+        mFragmentNoteListBinding.fabBtn.setShowAnimation(AnimationUtils.loadAnimation(activity, R.anim.scale_up))
+        mFragmentNoteListBinding.fabBtn.setHideAnimation(AnimationUtils.loadAnimation(activity, R.anim.scale_down))
+
+        val delay: Long = 400
+        Handler().postDelayed(Runnable { mFragmentNoteListBinding.fabBtn.show(true) }, delay + 150)
 
         mViewModel?.getNoteLiveData()?.observe(viewLifecycleOwner) {
             if (it != null) {

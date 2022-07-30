@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-43:/values-bg/values-bg.xml",
+            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-44:/values-bg/values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\05817a5203b51b6b896fddf28bf56056\\transformed\\core-1.7.0\\res\\values-bg\\values-bg.xml",

@@ -32,6 +32,7 @@ MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Vishwas\.gradle\cach
 MERGED from [androidx.room:room-rxjava2:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\2033a83c0385f025dca6866505be267b\transformed\room-rxjava2-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\transforms-3\144ef5e1d7fd9aad0932646ebb3c0a3f\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\a105872088e49f3c54a6c508aa980d73\transformed\room-runtime-2.4.2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Vishwas\.gradle\caches\transforms-3\a8fd82794da73082e2a872a00e858709\transformed\jetified-fab-1.6.4\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vishwas\.gradle\caches\transforms-3\fb7837750a952a430f86517c3a60550e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Vishwas\.gradle\caches\transforms-3\d883ac7e073d558e2184a78fb093973e\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\346393cf8c7aa0d460d8ec08b7246bd9\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -127,6 +128,8 @@ MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\t
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\transforms-3\144ef5e1d7fd9aad0932646ebb3c0a3f\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\a105872088e49f3c54a6c508aa980d73\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\a105872088e49f3c54a6c508aa980d73\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Vishwas\.gradle\caches\transforms-3\a8fd82794da73082e2a872a00e858709\transformed\jetified-fab-1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Vishwas\.gradle\caches\transforms-3\a8fd82794da73082e2a872a00e858709\transformed\jetified-fab-1.6.4\AndroidManifest.xml:12:5-20
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\Vishwas\.gradle\caches\transforms-3\05817a5203b51b6b896fddf28bf56056\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
@@ -297,6 +300,8 @@ MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\t
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\transforms-3\144ef5e1d7fd9aad0932646ebb3c0a3f\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\a105872088e49f3c54a6c508aa980d73\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Vishwas\.gradle\caches\transforms-3\a105872088e49f3c54a6c508aa980d73\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Vishwas\.gradle\caches\transforms-3\a8fd82794da73082e2a872a00e858709\transformed\jetified-fab-1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Vishwas\.gradle\caches\transforms-3\a8fd82794da73082e2a872a00e858709\transformed\jetified-fab-1.6.4\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vishwas\.gradle\caches\transforms-3\fb7837750a952a430f86517c3a60550e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vishwas\.gradle\caches\transforms-3\fb7837750a952a430f86517c3a60550e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Vishwas\.gradle\caches\transforms-3\d883ac7e073d558e2184a78fb093973e\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41

@@ -42,6 +42,7 @@ ext {
     roomVersion = '2.4.2'
     work_version = '2.7.1'
     dagger2_version = '2.42'
+    float_action_button_third_party = '1.6.4'
 
     // Test dependencies
     junitVersion = '1.1.3'

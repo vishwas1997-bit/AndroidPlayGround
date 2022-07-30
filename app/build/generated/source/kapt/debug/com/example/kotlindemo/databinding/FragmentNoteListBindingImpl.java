@@ -30,7 +30,7 @@ public class FragmentNoteListBindingImpl extends FragmentNoteListBinding  {
     }
     private FragmentNoteListBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (com.google.android.material.floatingactionbutton.FloatingActionButton) bindings[2]
+            , (com.github.clans.fab.FloatingActionButton) bindings[2]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
