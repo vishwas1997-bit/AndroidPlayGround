@@ -62,6 +62,6 @@ class NoteAddFragment : BaseFragment<FragmentNoteAddBinding, NoteViewModel>() {
 
     override fun onStop() {
         super.onStop()
-        mViewModel?.addNote(mFragmentNoteBinding.tvDescription.text.toString(),mFragmentNoteBinding.tvTitle.text.toString())
+        mViewModel?.addNote(mFragmentNoteBinding.tvTitle.text.toString(),mFragmentNoteBinding.tvDescription.text.toString())
     }
 }

@@ -59,9 +59,6 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
         super.onViewCreated(view, savedInstanceState)
         mFragmentNoteListBinding = getViewDataBinding()
         setUp()
-        mFragmentNoteListBinding.fabBtn.setOnClickListener {
-            mViewModel?.onAddNoteClick()
-        }
     }
 
 
@@ -71,7 +68,7 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
     }
 
     override fun getBindingVariable(): Int {
-        return BR._all
+        return androidx.databinding.library.baseAdapters.BR.viewModel
     }
 
     override fun performDependencyInjection(buildComponent: FragmentComponent) {

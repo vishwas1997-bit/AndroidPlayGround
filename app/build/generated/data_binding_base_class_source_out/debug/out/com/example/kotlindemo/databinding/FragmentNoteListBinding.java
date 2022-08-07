@@ -6,10 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.kotlindemo.R;
+import com.example.kotlindemo.notes_app.NoteViewModel;
 import com.github.clans.fab.FloatingActionButton;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -21,11 +23,21 @@ public abstract class FragmentNoteListBinding extends ViewDataBinding {
   @NonNull
   public final RecyclerView rvNote;
 
+  @Bindable
+  protected NoteViewModel mViewModel;
+
   protected FragmentNoteListBinding(Object _bindingComponent, View _root, int _localFieldCount,
       FloatingActionButton fabBtn, RecyclerView rvNote) {
     super(_bindingComponent, _root, _localFieldCount);
     this.fabBtn = fabBtn;
     this.rvNote = rvNote;
+  }
+
+  public abstract void setViewModel(@Nullable NoteViewModel viewModel);
+
+  @Nullable
+  public NoteViewModel getViewModel() {
+    return mViewModel;
   }
 
   @NonNull
