@@ -1,42 +1,42 @@
 [
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_two_api_call.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_two_api_call.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/fragment_note_list.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/fragment_note_list.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_third.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_third.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/note_item.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/note_item.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_second.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_second.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_two_api_call.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_two_api_call.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/note_item.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/note_item.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_third.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_third.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_note.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_note.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_first.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_first.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_first.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_first.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_second.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_second.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/fragment_note_list.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/fragment_note_list.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_note.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_note.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_main.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_main.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/activity_data_show.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/activity_data_show.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_data_show.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_data_show.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-45:/layout/fragment_note_add.xml",
-        "source": "com.example.kotlindemo.app-main-48:/layout/fragment_note_add.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/fragment_note_add.xml",
+        "source": "com.example.kotlindemo.app-main-49:/layout/fragment_note_add.xml"
     }
 ]

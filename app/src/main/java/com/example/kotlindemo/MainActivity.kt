@@ -56,8 +56,6 @@ class MainActivity : AppCompatActivity() {
                     REQUESTCODE
                 )
             }
-        } else {
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_LONG).show()
         }
     }
 
