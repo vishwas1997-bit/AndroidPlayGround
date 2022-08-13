@@ -17,4 +17,8 @@ class AppDbHelper @Inject constructor(private val mDatabase: AppDatabase) : DbHe
             return@Callable true
         })
     }
+
+    override suspend fun updateNote(noteEntity: NoteEntity) {
+        mDatabase.getNoteDao()?.updateNote(noteEntity)
+    }
 }

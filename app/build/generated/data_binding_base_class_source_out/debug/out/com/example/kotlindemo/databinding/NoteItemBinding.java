@@ -10,10 +10,14 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.kotlindemo.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class NoteItemBinding extends ViewDataBinding {
+  @NonNull
+  public final MaterialCardView layoutId;
+
   @NonNull
   public final TextView tvDesc;
 
@@ -21,8 +25,9 @@ public abstract class NoteItemBinding extends ViewDataBinding {
   public final TextView tvTitle;
 
   protected NoteItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView tvDesc, TextView tvTitle) {
+      MaterialCardView layoutId, TextView tvDesc, TextView tvTitle) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.layoutId = layoutId;
     this.tvDesc = tvDesc;
     this.tvTitle = tvTitle;
   }

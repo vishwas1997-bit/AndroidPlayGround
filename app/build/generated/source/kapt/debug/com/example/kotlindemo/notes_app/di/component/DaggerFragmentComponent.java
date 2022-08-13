@@ -93,6 +93,7 @@ public final class DaggerFragmentComponent {
 
     @Override
     public void inject(NoteUpdateFragment fragment) {
+      injectNoteUpdateFragment(fragment);
     }
 
     private NoteListFragment injectNoteListFragment(NoteListFragment instance) {
@@ -103,6 +104,11 @@ public final class DaggerFragmentComponent {
     }
 
     private NoteAddFragment injectNoteAddFragment(NoteAddFragment instance) {
+      BaseFragment_MembersInjector.injectSetMViewModel(instance, noteViewModel());
+      return instance;
+    }
+
+    private NoteUpdateFragment injectNoteUpdateFragment(NoteUpdateFragment instance) {
       BaseFragment_MembersInjector.injectSetMViewModel(instance, noteViewModel());
       return instance;
     }

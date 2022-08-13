@@ -22,9 +22,9 @@ import javax.inject.Provider
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), NoteNavigator {
+class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), NoteNavigator, NoteListAdapter.NoteListListener {
 
-    lateinit var mFragmentNoteListBinding: FragmentNoteListBinding
+    private lateinit var mFragmentNoteListBinding: FragmentNoteListBinding
 
     private var param1: String? = null
     private var param2: String? = null
@@ -90,6 +90,8 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
         mFragmentNoteListBinding.rvNote.itemAnimator = DefaultItemAnimator()
         mFragmentNoteListBinding.rvNote.adapter = mAdapter
 
+        mAdapter?.setListener(this)
+
         mFragmentNoteListBinding.fabBtn.setShowAnimation(AnimationUtils.loadAnimation(activity, R.anim.scale_up))
         mFragmentNoteListBinding.fabBtn.setHideAnimation(AnimationUtils.loadAnimation(activity, R.anim.scale_down))
 
@@ -101,5 +103,11 @@ class NoteListFragment : BaseFragment<FragmentNoteListBinding,NoteViewModel>(), 
                 mAdapter?.addItems(it)
             }
         }
+    }
+
+    override fun updateNote(title: String, desc: String) {
+        NoteUpdateFragment.newInstance(title, desc)
+        Navigation.findNavController(mFragmentNoteListBinding.root)
+            .navigate(R.id.action_noteListFragment_to_noteUpdateFragment)
     }
 }

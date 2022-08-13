@@ -1,6 +1,8 @@
 package com.example.kotlindemo.notes_app.data.db.dao;
 
 import android.database.Cursor;
+import androidx.room.CoroutinesRoom;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -13,6 +15,7 @@ import com.example.kotlindemo.notes_app.data.model.NoteEntity;
 import io.reactivex.Observable;
 import java.lang.Class;
 import java.lang.Exception;
+import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -20,12 +23,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
 
 @SuppressWarnings({"unchecked", "deprecation"})
 public final class NoteDao_Impl implements NoteDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<NoteEntity> __insertionAdapterOfNoteEntity;
+
+  private final EntityDeletionOrUpdateAdapter<NoteEntity> __updateAdapterOfNoteEntity;
 
   private final SharedSQLiteStatement __preparedStmtOfDeleteAllNotes;
 
@@ -52,6 +59,28 @@ public final class NoteDao_Impl implements NoteDao {
         }
       }
     };
+    this.__updateAdapterOfNoteEntity = new EntityDeletionOrUpdateAdapter<NoteEntity>(__db) {
+      @Override
+      public String createQuery() {
+        return "UPDATE OR ABORT `notes_table` SET `local_id` = ?,`title` = ?,`description` = ? WHERE `local_id` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, NoteEntity value) {
+        stmt.bindLong(1, value.getLocal_id());
+        if (value.getTitle() == null) {
+          stmt.bindNull(2);
+        } else {
+          stmt.bindString(2, value.getTitle());
+        }
+        if (value.getDescription() == null) {
+          stmt.bindNull(3);
+        } else {
+          stmt.bindString(3, value.getDescription());
+        }
+        stmt.bindLong(4, value.getLocal_id());
+      }
+    };
     this.__preparedStmtOfDeleteAllNotes = new SharedSQLiteStatement(__db) {
       @Override
       public String createQuery() {
@@ -71,6 +100,24 @@ public final class NoteDao_Impl implements NoteDao {
     } finally {
       __db.endTransaction();
     }
+  }
+
+  @Override
+  public Object updateNote(final NoteEntity notesEntity,
+      final Continuation<? super Unit> continuation) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __updateAdapterOfNoteEntity.handle(notesEntity);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, continuation);
   }
 
   @Override

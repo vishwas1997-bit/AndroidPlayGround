@@ -8,4 +8,6 @@ interface DbHelper {
     fun getNoteList() : Observable<List<NoteEntity>>
 
     fun insertNote(noteEntity: NoteEntity) : Observable<Boolean>
+
+    suspend fun updateNote(noteEntity: NoteEntity)
 }

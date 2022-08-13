@@ -18,8 +18,6 @@ public class NoteItemBindingImpl extends NoteItemBinding  {
         sViewsWithIds.put(R.id.tvDesc, 2);
     }
     // views
-    @NonNull
-    private final com.google.android.material.card.MaterialCardView mboundView0;
     // variables
     // values
     // listeners
@@ -30,11 +28,11 @@ public class NoteItemBindingImpl extends NoteItemBinding  {
     }
     private NoteItemBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (com.google.android.material.card.MaterialCardView) bindings[0]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[1]
             );
-        this.mboundView0 = (com.google.android.material.card.MaterialCardView) bindings[0];
-        this.mboundView0.setTag(null);
+        this.layoutId.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

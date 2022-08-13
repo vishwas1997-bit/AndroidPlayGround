@@ -3,11 +3,13 @@ package com.example.kotlindemo.notes_app
 import android.text.TextUtils
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
 import com.example.kotlindemo.notes_app.data.DataManger
 import com.example.kotlindemo.notes_app.data.model.NoteEntity
 import com.example.kotlindemo.notes_app.ui.NoteNavigator
 import com.example.kotlindemo.notes_app.ui.base.BaseViewModel
 import com.example.kotlindemo.utils.rxJava.SchedulerProvider
+import kotlinx.coroutines.launch
 
 class NoteViewModel(dataManger: DataManger, schedulerProvider: SchedulerProvider) :
     BaseViewModel<NoteNavigator>(dataManger, schedulerProvider) {
@@ -32,7 +34,7 @@ class NoteViewModel(dataManger: DataManger, schedulerProvider: SchedulerProvider
 //        }
 //    }!!
 //    )
-    fun addNote(title: String, desc: String) {
+    fun insertNote(title: String, desc: String) {
         if (!TextUtils.isEmpty(title) || !TextUtils.isEmpty(desc)) {
             val noteEntity = NoteEntity(0, title, desc)
             getCompositeDisposable().add(
@@ -56,4 +58,11 @@ class NoteViewModel(dataManger: DataManger, schedulerProvider: SchedulerProvider
     fun getNoteLiveData(): LiveData<List<NoteEntity>> {
         return noteListLiveData
     }
+
+    fun updateNote(title: String, desc: String){
+        viewModelScope.launch {
+           getDataManager().updateNote(NoteEntity(0,title,desc))
+        }
+    }
+
 }

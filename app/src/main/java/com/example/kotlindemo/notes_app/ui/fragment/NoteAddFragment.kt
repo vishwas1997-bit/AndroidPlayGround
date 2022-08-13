@@ -1,14 +1,10 @@
 package com.example.kotlindemo.notes_app.ui.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import com.example.kotlindemo.BR
 import com.example.kotlindemo.R
 import com.example.kotlindemo.databinding.FragmentNoteAddBinding
-import com.example.kotlindemo.databinding.FragmentNoteListBinding
 import com.example.kotlindemo.notes_app.NoteViewModel
 import com.example.kotlindemo.notes_app.di.component.FragmentComponent
 import com.example.kotlindemo.notes_app.ui.base.BaseFragment
@@ -62,6 +58,6 @@ class NoteAddFragment : BaseFragment<FragmentNoteAddBinding, NoteViewModel>() {
 
     override fun onStop() {
         super.onStop()
-        mViewModel?.addNote(mFragmentNoteBinding.tvTitle.text.toString(),mFragmentNoteBinding.tvDescription.text.toString())
+        mViewModel?.insertNote(mFragmentNoteBinding.tvTitle.text.toString(),mFragmentNoteBinding.tvDescription.text.toString())
     }
 }

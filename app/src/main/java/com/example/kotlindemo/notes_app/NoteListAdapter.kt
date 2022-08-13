@@ -9,10 +9,15 @@ import com.example.kotlindemo.notes_app.ui.base.BaseViewHolder
 
 class NoteListAdapter(private var mNoteList : List<NoteEntity> = ArrayList()) : RecyclerView.Adapter<BaseViewHolder>() {
 
-//
-//    init {
-//        mNoteList = ArrayList()
-//    }
+    lateinit var mListener : NoteListListener
+
+    interface NoteListListener{
+        fun updateNote(title : String, desc : String)
+    }
+
+    fun setListener(mListener: NoteListListener){
+        this.mListener = mListener
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder {
         val binding = NoteItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
@@ -38,6 +43,10 @@ class NoteListAdapter(private var mNoteList : List<NoteEntity> = ArrayList()) : 
             val mNoteEntity = mNoteList[position]
             binding.tvTitle.text = mNoteEntity.title
             binding.tvDesc.text = mNoteEntity.description
+
+            binding.layoutId.setOnClickListener{
+                mListener.updateNote(mNoteEntity.title.toString(),mNoteEntity.description.toString())
+            }
         }
 
     }

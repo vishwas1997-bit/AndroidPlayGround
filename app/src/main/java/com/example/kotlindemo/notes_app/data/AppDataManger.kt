@@ -14,6 +14,10 @@ class AppDataManger @Inject constructor(private val mDbHelper: DbHelper) : DataM
         return mDbHelper.insertNote(noteEntity)
     }
 
+    override suspend fun updateNote(noteEntity: NoteEntity) {
+        mDbHelper.updateNote(noteEntity)
+    }
+
     override fun getNoteList(): Observable<List<NoteEntity>> {
         return mDbHelper.getNoteList()
     }

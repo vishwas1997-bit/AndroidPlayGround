@@ -1,9 +1,6 @@
 package com.example.kotlindemo.notes_app.data.db.dao
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import com.example.kotlindemo.notes_app.data.model.NoteEntity
 import io.reactivex.Observable
 
@@ -19,4 +16,6 @@ interface NoteDao {
     @Query("delete from notes_table")
     fun deleteAllNotes()
 
+    @Update
+    suspend fun updateNote(notesEntity: NoteEntity?)
 }
