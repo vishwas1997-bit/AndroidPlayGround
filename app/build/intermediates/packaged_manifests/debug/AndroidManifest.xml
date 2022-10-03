@@ -47,12 +47,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity"
-            android:exported="true" />
+        <!-- <activity -->
+        <!-- android:name=".RoomDatabaseDemo.ui.NewCourseActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".RoomDatabaseDemo.ui.RoomActivity" -->
+        <!-- android:exported="true" /> -->
         <activity
             android:name="com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity"
             android:exported="true" />

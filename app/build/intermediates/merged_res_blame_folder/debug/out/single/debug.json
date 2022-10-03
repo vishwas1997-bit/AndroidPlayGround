@@ -1,150 +1,190 @@
 [
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-pngs-42:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/menu_langauge_menu.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/menu/langauge_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_hide_to_bottom.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/hide_to_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_work_manager.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_work_manager.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_exit.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/exit.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_fragment_note_list.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\fragment_note_list.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/navigation_nav_notes.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/navigation/nav_notes.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_slide_in_right.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_data_show.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_data_show.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_slide_in_left.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/slide_in_left.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_scale_up.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\scale_up.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_two_api_call.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_two_api_call.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_first.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_first.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_main.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_fragment_note_add.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\fragment_note_add.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_third.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_third.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_scale_down.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\scale_down.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_show_from_bottom.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/show_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\navigation_nav_notes.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\navigation\\nav_notes.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_fade_out.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_scale_down.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/scale_down.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_alarm.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_alarm.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_slide_out_left.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/slide_out_left.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_note.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_note.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_scale_up.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/scale_up.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_hide_to_bottom.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\hide_to_bottom.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_second.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_second.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_second.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/drawable_ic_add.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/drawable/ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_data_show_java2.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_data_show_java2.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_jump_from_down.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\jump_from_down.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_fade_in.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_note_item.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\note_item.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_data_show_java2.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_data_show_java2.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_jump_to_down.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\jump_to_down.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_jump_to_down.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/jump_to_down.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_third.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_third.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_fragment_note_list.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/fragment_note_list.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\drawable\\ic_add.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_jump_from_down.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/jump_from_down.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_fourth.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_fourth.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_note.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_note.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_first.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_first.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_two_api_call.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_two_api_call.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_data_show.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_data_show.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_work_manager.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_work_manager.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_fragment_note_add.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/fragment_note_add.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\anim_show_from_bottom.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\anim\\show_from_bottom.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_alarm.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_alarm.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.kotlindemo.app-pngs-42:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/layout_activity_fourth.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/layout/activity_fourth.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_left_to_right.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/left_to_right.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_slide_out_right.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_right_to_left.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/right_to_left.xml"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/anim_enter.xml.flat",
+        "source": "com.example.kotlindemo.app-main-49:/anim/enter.xml"
     },
     {
         "merged": "com.example.kotlindemo.app-merged_res-47:/layout_note_item.xml.flat",
         "source": "com.example.kotlindemo.app-main-49:/layout/note_item.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-merged_res-47:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_main.xml"
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kotlindemo.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kotlindemo.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
     }
 ]

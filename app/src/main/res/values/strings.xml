@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Kotlin Project</string>
+    <string name="app_name" translatable="false">Kotlin Project</string>
     <!-- Strings used for fragments for navigation -->
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="add_note">Add Note</string>
     <string name="title">Title</string>
     <string name="note">Note</string>
+    <string name="hindi" translatable="true">Hindi</string>
+    <string name="english" translatable="true">English</string>
 </resources>

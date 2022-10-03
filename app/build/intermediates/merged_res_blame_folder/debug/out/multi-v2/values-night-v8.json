@@ -4,7 +4,7 @@
             "outputFile": "com.example.kotlindemo.app-mergeDebugResources-45:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "F:\\AndroidProjects\\kotlinproject\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "F:\\AndroidProjects\\kotlindemo\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

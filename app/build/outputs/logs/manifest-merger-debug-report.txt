@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\569c54e97bc5f96b2c88f98548ee58cb\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\d6503cf5ab0ab843a048a8d19bff1290\transformed\jetified-databinding-ktx-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\8a8684c7fc7a77d9d8b320eff4c1ac90\transformed\databinding-runtime-7.2.2\AndroidManifest.xml:17:1-24:12
@@ -74,51 +74,51 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vishwas\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\665850ea4b4ce868b5eddfb0dca3257f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\a1c013aaa62737d9f5bf9585498f6ba4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vishwas\.gradle\caches\transforms-3\6e958a6dab6a6cadae99640aa3343bfb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\transforms-3\f8edd114f367f8f5d86195547b700c8a\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Vishwas\.gradle\caches\transforms-3\f8edd114f367f8f5d86195547b700c8a\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.CAMERA
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.VIBRATE
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:11:5-66
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:11:5-66
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:11:22-63
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:11:22-63
 application
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:13:5-64:19
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:13:5-64:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Vishwas\.gradle\caches\transforms-3\177494814a0e05c0a551a5493916edce\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
@@ -144,107 +144,95 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Vishwas\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Vishwas\.gradle\caches\transforms-3\9d01ab5d4c18f089413ecd89504280d2\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:20:9-48
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:20:9-48
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:14:9-38
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:14:9-38
 activity#com.example.kotlindemo.alarm_manager.AlarmActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:22:13-56
 activity#com.example.kotlindemo.workmanager.WorkManagerActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:25:13-60
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:25:13-60
 activity#com.example.kotlindemo.notes_app.NoteActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:28:13-51
 activity#com.example.kotlindemo.MainActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:31:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:36:27-74
-activity#com.example.kotlindemo.RoomDatabaseDemo.ui.NewCourseActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:39:9-41:40
-	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:41:13-37
-	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:40:13-66
-activity#com.example.kotlindemo.RoomDatabaseDemo.ui.RoomActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:42:9-44:39
-	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:44:13-36
-	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:43:13-61
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:36:27-74
 activity#com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:45:9-47:39
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:45:9-47:39
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:46:13-60
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:46:13-60
 activity#com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:48:9-50:39
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:48:9-50:39
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:49:13-62
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:49:13-62
 activity#com.example.kotlindemo.lauchmodedemo.FourthActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:52:13-57
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:52:13-57
 activity#com.example.kotlindemo.lauchmodedemo.ThirdActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:54:9-56:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:56:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:55:13-56
 activity#com.example.kotlindemo.lauchmodedemo.SecondActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:57:9-60:51
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:57:9-60:51
 	android:launchMode
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:60:13-48
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:60:13-48
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:58:13-57
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:58:13-57
 activity#com.example.kotlindemo.lauchmodedemo.FirstActivity
-ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:61:9-63:40
+ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml:62:13-56
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml:62:13-56
 uses-sdk
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\569c54e97bc5f96b2c88f98548ee58cb\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:databinding-adapters:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\569c54e97bc5f96b2c88f98548ee58cb\transformed\databinding-adapters-7.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:databinding-ktx:7.2.2] C:\Users\Vishwas\.gradle\caches\transforms-3\d6503cf5ab0ab843a048a8d19bff1290\transformed\jetified-databinding-ktx-7.2.2\AndroidManifest.xml:20:5-22:41
@@ -385,16 +373,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Vishwas\.gradle\caches\transfo
 MERGED from [androidx.print:print:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\a1c013aaa62737d9f5bf9585498f6ba4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vishwas\.gradle\caches\transforms-3\6e958a6dab6a6cadae99640aa3343bfb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vishwas\.gradle\caches\transforms-3\6e958a6dab6a6cadae99640aa3343bfb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
-		INJECTED from F:\AndroidProjects\kotlinproject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidProjects\kotlindemo\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] C:\Users\Vishwas\.gradle\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required

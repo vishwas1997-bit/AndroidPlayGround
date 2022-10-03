@@ -18,4 +18,9 @@ class SecondActivity : AppCompatActivity() {
             startActivity(Intent(this,ThirdActivity::class.java))
         }
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
+    }
 }

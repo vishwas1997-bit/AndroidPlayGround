@@ -5,4 +5,6 @@ object Constants {
     const val mockApi_url = "https://mocki.io/"
     const val quotes_url = "https://quotable.io/"
     const val TAG = "TAG_VK"
+    const val PREF_NAME = "preference_data"
+    const val PREF_LANG = "current_language"
 }
