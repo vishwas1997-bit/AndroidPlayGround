@@ -11,69 +11,69 @@ public final class NoteListAdapter extends androidx.recyclerview.widget.Recycler
         super();
     }
     
-    public NoteListAdapter(@org.jetbrains.annotations.NotNull()
+    public NoteListAdapter(@org.jetbrains.annotations.NotNull
     java.util.List<com.example.kotlindemo.notes_app.data.model.NoteEntity> mNoteList) {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final com.example.kotlindemo.notes_app.NoteListAdapter.NoteListListener getMListener() {
         return null;
     }
     
-    public final void setMListener(@org.jetbrains.annotations.NotNull()
+    public final void setMListener(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.NoteListAdapter.NoteListListener p0) {
     }
     
-    public final void setListener(@org.jetbrains.annotations.NotNull()
+    public final void setListener(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.NoteListAdapter.NoteListListener mListener) {
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
-    public com.example.kotlindemo.notes_app.ui.base.BaseViewHolder onCreateViewHolder(@org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
+    public com.example.kotlindemo.notes_app.ui.base.BaseViewHolder onCreateViewHolder(@org.jetbrains.annotations.NotNull
     android.view.ViewGroup parent, int viewType) {
         return null;
     }
     
-    @java.lang.Override()
-    public void onBindViewHolder(@org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public void onBindViewHolder(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.ui.base.BaseViewHolder holder, int position) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int getItemCount() {
         return 0;
     }
     
-    public final void addItems(@org.jetbrains.annotations.NotNull()
+    public final void addItems(@org.jetbrains.annotations.NotNull
     java.util.List<com.example.kotlindemo.notes_app.data.model.NoteEntity> noteData) {
     }
     
     @kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\bf\u0018\u00002\u00020\u0001J\u0018\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0005H&\u00a8\u0006\u0007"}, d2 = {"Lcom/example/kotlindemo/notes_app/NoteListAdapter$NoteListListener;", "", "updateNote", "", "title", "", "desc", "app_debug"})
     public static abstract interface NoteListListener {
         
-        public abstract void updateNote(@org.jetbrains.annotations.NotNull()
-        java.lang.String title, @org.jetbrains.annotations.NotNull()
+        public abstract void updateNote(@org.jetbrains.annotations.NotNull
+        java.lang.String title, @org.jetbrains.annotations.NotNull
         java.lang.String desc);
     }
     
     @kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0000\b\u0086\u0004\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u0010\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\nH\u0016R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\u000b"}, d2 = {"Lcom/example/kotlindemo/notes_app/NoteListAdapter$NoteListViewHolder;", "Lcom/example/kotlindemo/notes_app/ui/base/BaseViewHolder;", "binding", "Lcom/example/kotlindemo/databinding/NoteItemBinding;", "(Lcom/example/kotlindemo/notes_app/NoteListAdapter;Lcom/example/kotlindemo/databinding/NoteItemBinding;)V", "getBinding", "()Lcom/example/kotlindemo/databinding/NoteItemBinding;", "onBind", "", "position", "", "app_debug"})
     public final class NoteListViewHolder extends com.example.kotlindemo.notes_app.ui.base.BaseViewHolder {
-        @org.jetbrains.annotations.NotNull()
+        @org.jetbrains.annotations.NotNull
         private final com.example.kotlindemo.databinding.NoteItemBinding binding = null;
         
-        public NoteListViewHolder(@org.jetbrains.annotations.NotNull()
+        public NoteListViewHolder(@org.jetbrains.annotations.NotNull
         com.example.kotlindemo.databinding.NoteItemBinding binding) {
             super(null);
         }
         
-        @org.jetbrains.annotations.NotNull()
+        @org.jetbrains.annotations.NotNull
         public final com.example.kotlindemo.databinding.NoteItemBinding getBinding() {
             return null;
         }
         
-        @java.lang.Override()
+        @java.lang.Override
         public void onBind(int position) {
         }
     }

@@ -11,28 +11,28 @@ public final class NoteActivity extends com.example.kotlindemo.notes_app.ui.base
         super();
     }
     
-    @java.lang.Override()
-    protected void onCreate(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    protected void onCreate(@org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int getLayoutId() {
         return 0;
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int getBindingVariable() {
         return 0;
     }
     
-    @java.lang.Override()
-    public void performDependencyInjection(@org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public void performDependencyInjection(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.di.component.ActivityComponent buildComponent) {
     }
     
-    @java.lang.Override()
-    public boolean onOptionsItemSelected(@org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public boolean onOptionsItemSelected(@org.jetbrains.annotations.NotNull
     android.view.MenuItem item) {
         return false;
     }

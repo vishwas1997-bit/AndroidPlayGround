@@ -1,50 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_note.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_note.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\fragment_note_add.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\fragment_note_add.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_two_api_call.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_two_api_call.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_third.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_third.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_data_show.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_data_show.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_second.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_third.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_third.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_note.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_note.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_first.xml",
-        "source": "com.example.kotlindemo.app-main-49:/layout/activity_first.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_data_show.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_data_show.xml"
     },
     {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-46:/layout/activity_second.xml",
-        "source": "com.example.kotlindemo.app-main-49:/layout/activity_second.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\fragment_note_list.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\fragment_note_list.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\fragment_note_list.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\fragment_note_list.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\note_item.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\note_item.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\fragment_note_add.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\fragment_note_add.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_first.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_first.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\note_item.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\note_item.xml"
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-54:/layout/activity_first.xml",
+        "source": "com.example.kotlindemo.app-main-57:/layout/activity_first.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_second.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_second.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-mergeDebugResources-46:\\layout\\activity_first.xml",
-        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\7.3.3\\com.example.kotlindemo.app-main-49:\\layout\\activity_first.xml"
+        "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_two_api_call.xml",
+        "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_two_api_call.xml"
     }
 ]

@@ -50,6 +50,7 @@ android {
     dataBinding{
         enabled true
     }
+    namespace 'com.example.kotlindemo'
 }
 
 dependencies {

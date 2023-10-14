@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btn_dataFetch"
-            android:text="Data Fetch"
+            android:text="Launch Mode/ Activity Life Cycle"
             android:padding="@dimen/dimen_4dp"/>
 
         <Button

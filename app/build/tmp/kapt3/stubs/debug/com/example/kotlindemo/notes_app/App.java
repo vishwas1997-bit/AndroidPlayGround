@@ -10,16 +10,16 @@ public final class App extends android.app.Application {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final com.example.kotlindemo.notes_app.di.component.AppComponent getAppComponent() {
         return null;
     }
     
-    public final void setAppComponent(@org.jetbrains.annotations.NotNull()
+    public final void setAppComponent(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.di.component.AppComponent p0) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public void onCreate() {
     }
 }

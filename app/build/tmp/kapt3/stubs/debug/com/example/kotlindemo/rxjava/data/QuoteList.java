@@ -7,35 +7,35 @@ public final class QuoteList {
     private final int count = 0;
     private final int lastItemIndex = 0;
     private final int page = 0;
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     private final java.util.List<com.example.kotlindemo.rxjava.data.Result> results = null;
     private final int totalCount = 0;
     private final int totalPages = 0;
     
-    @org.jetbrains.annotations.NotNull()
-    public final com.example.kotlindemo.rxjava.data.QuoteList copy(int count, int lastItemIndex, int page, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    public final com.example.kotlindemo.rxjava.data.QuoteList copy(int count, int lastItemIndex, int page, @org.jetbrains.annotations.NotNull
     java.util.List<com.example.kotlindemo.rxjava.data.Result> results, int totalCount, int totalPages) {
         return null;
     }
     
-    @java.lang.Override()
-    public boolean equals(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    public boolean equals(@org.jetbrains.annotations.Nullable
     java.lang.Object other) {
         return false;
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int hashCode() {
         return 0;
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public java.lang.String toString() {
         return null;
     }
     
-    public QuoteList(int count, int lastItemIndex, int page, @org.jetbrains.annotations.NotNull()
+    public QuoteList(int count, int lastItemIndex, int page, @org.jetbrains.annotations.NotNull
     java.util.List<com.example.kotlindemo.rxjava.data.Result> results, int totalCount, int totalPages) {
         super();
     }
@@ -64,12 +64,12 @@ public final class QuoteList {
         return 0;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final java.util.List<com.example.kotlindemo.rxjava.data.Result> component4() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final java.util.List<com.example.kotlindemo.rxjava.data.Result> getResults() {
         return null;
     }

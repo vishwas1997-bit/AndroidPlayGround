@@ -9,17 +9,17 @@ public abstract class BaseViewModel<N extends java.lang.Object> extends androidx
     private io.reactivex.disposables.CompositeDisposable compositeDisposable;
     private java.lang.ref.WeakReference<N> mNavigator;
     
-    public BaseViewModel(@org.jetbrains.annotations.NotNull()
-    com.example.kotlindemo.notes_app.data.DataManger dataManger, @org.jetbrains.annotations.NotNull()
+    public BaseViewModel(@org.jetbrains.annotations.NotNull
+    com.example.kotlindemo.notes_app.data.DataManger dataManger, @org.jetbrains.annotations.NotNull
     com.example.kotlindemo.utils.rxJava.SchedulerProvider schedulerProvider) {
         super();
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     protected void onCleared() {
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final N getNavigator() {
         return null;
     }
@@ -27,17 +27,17 @@ public abstract class BaseViewModel<N extends java.lang.Object> extends androidx
     public final void setNavigator(N navigator) {
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final io.reactivex.disposables.CompositeDisposable getCompositeDisposable() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final com.example.kotlindemo.notes_app.data.DataManger getDataManager() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     @kotlin.jvm.JvmName(name = "getSchedulerProvider1")
     public final com.example.kotlindemo.utils.rxJava.SchedulerProvider getSchedulerProvider1() {
         return null;

@@ -12,17 +12,17 @@ public final class MainActivity extends androidx.appcompat.app.AppCompatActivity
         super();
     }
     
-    @java.lang.Override()
-    protected void onCreate(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    protected void onCreate(@org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {
     }
     
     private final void checkForPermission() {
     }
     
-    @java.lang.Override()
-    public void onRequestPermissionsResult(int requestCode, @org.jetbrains.annotations.NotNull()
-    java.lang.String[] permissions, @org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public void onRequestPermissionsResult(int requestCode, @org.jetbrains.annotations.NotNull
+    java.lang.String[] permissions, @org.jetbrains.annotations.NotNull
     int[] grantResults) {
     }
 }

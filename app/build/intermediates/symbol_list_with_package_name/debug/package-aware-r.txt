@@ -2901,10 +2901,6 @@ id info
 id invisible
 id inward
 id italic
-id item1
-id item2
-id item3
-id item4
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3171,6 +3167,7 @@ id vertical_only
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
+id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
@@ -3382,8 +3379,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu example_menu
-menu example_menu2
 menu langauge_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -4125,6 +4120,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

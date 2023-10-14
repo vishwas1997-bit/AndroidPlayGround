@@ -7,11 +7,11 @@ public final class NoteListFragment extends com.example.kotlindemo.notes_app.ui.
     private com.example.kotlindemo.databinding.FragmentNoteListBinding mFragmentNoteListBinding;
     private java.lang.String param1;
     private java.lang.String param2;
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     private javax.inject.Provider<androidx.recyclerview.widget.LinearLayoutManager> mLayoutManager;
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     private com.example.kotlindemo.notes_app.NoteListAdapter mAdapter;
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public static final com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment.Companion Companion = null;
     private java.util.HashMap _$_findViewCache;
     
@@ -19,74 +19,74 @@ public final class NoteListFragment extends com.example.kotlindemo.notes_app.ui.
         super();
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final javax.inject.Provider<androidx.recyclerview.widget.LinearLayoutManager> getMLayoutManager() {
         return null;
     }
     
-    @javax.inject.Inject()
-    public final void setMLayoutManager(@org.jetbrains.annotations.Nullable()
+    @javax.inject.Inject
+    public final void setMLayoutManager(@org.jetbrains.annotations.Nullable
     javax.inject.Provider<androidx.recyclerview.widget.LinearLayoutManager> p0) {
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final com.example.kotlindemo.notes_app.NoteListAdapter getMAdapter() {
         return null;
     }
     
-    @javax.inject.Inject()
-    public final void setMAdapter(@org.jetbrains.annotations.Nullable()
+    @javax.inject.Inject
+    public final void setMAdapter(@org.jetbrains.annotations.Nullable
     com.example.kotlindemo.notes_app.NoteListAdapter p0) {
     }
     
-    @java.lang.Override()
-    public void onCreate(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    public void onCreate(@org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @kotlin.jvm.JvmStatic()
-    public static final com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment newInstance(@org.jetbrains.annotations.NotNull()
-    java.lang.String param1, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    @kotlin.jvm.JvmStatic
+    public static final com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment newInstance(@org.jetbrains.annotations.NotNull
+    java.lang.String param1, @org.jetbrains.annotations.NotNull
     java.lang.String param2) {
         return null;
     }
     
-    @java.lang.Override()
-    public void onViewCreated(@org.jetbrains.annotations.NotNull()
-    android.view.View view, @org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    public void onViewCreated(@org.jetbrains.annotations.NotNull
+    android.view.View view, @org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int getLayoutId() {
         return 0;
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int getBindingVariable() {
         return 0;
     }
     
-    @java.lang.Override()
-    public void performDependencyInjection(@org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public void performDependencyInjection(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.di.component.FragmentComponent buildComponent) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public void openAddNoteFragment() {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public void openUpdateNoteFragment() {
     }
     
     private final void setUp() {
     }
     
-    @java.lang.Override()
-    public void updateNote(@org.jetbrains.annotations.NotNull()
-    java.lang.String title, @org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public void updateNote(@org.jetbrains.annotations.NotNull
+    java.lang.String title, @org.jetbrains.annotations.NotNull
     java.lang.String desc) {
     }
     
@@ -97,10 +97,10 @@ public final class NoteListFragment extends com.example.kotlindemo.notes_app.ui.
             super();
         }
         
-        @org.jetbrains.annotations.NotNull()
-        @kotlin.jvm.JvmStatic()
-        public final com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment newInstance(@org.jetbrains.annotations.NotNull()
-        java.lang.String param1, @org.jetbrains.annotations.NotNull()
+        @org.jetbrains.annotations.NotNull
+        @kotlin.jvm.JvmStatic
+        public final com.example.kotlindemo.notes_app.ui.fragment.NoteListFragment newInstance(@org.jetbrains.annotations.NotNull
+        java.lang.String param1, @org.jetbrains.annotations.NotNull
         java.lang.String param2) {
             return null;
         }

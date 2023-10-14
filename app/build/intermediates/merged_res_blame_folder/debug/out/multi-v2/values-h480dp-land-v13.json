@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-45:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-53:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\177494814a0e05c0a551a5493916edce\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\3edaa999e10ac7a7be217c922e59e3a7\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

@@ -9,20 +9,20 @@ public final class AppSchedulerProvider implements com.example.kotlindemo.utils.
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public io.reactivex.Scheduler computation() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public io.reactivex.Scheduler io() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
-    @java.lang.Override()
+    @org.jetbrains.annotations.Nullable
+    @java.lang.Override
     public io.reactivex.Scheduler ui() {
         return null;
     }

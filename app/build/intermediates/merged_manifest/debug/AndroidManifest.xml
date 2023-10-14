@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -17,6 +17,12 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission
+        android:name="com.example.kotlindemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.kotlindemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="com.example.kotlindemo.notes_app.App"
@@ -68,7 +74,7 @@
         <activity
             android:name="com.example.kotlindemo.lauchmodedemo.SecondActivity"
             android:exported="false"
-            android:launchMode="singleInstance" />
+            android:theme="@style/Theme.Transparent" />
         <activity
             android:name="com.example.kotlindemo.lauchmodedemo.FirstActivity"
             android:exported="false" />
@@ -85,10 +91,10 @@
             android:authorities="com.example.kotlindemo.androidx-startup"
             android:exported="false" >
             <meta-data
-                android:name="androidx.work.WorkManagerInitializer"
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
                 android:value="androidx.startup" />
             <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:name="androidx.work.WorkManagerInitializer"
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"

@@ -7,33 +7,33 @@ import java.lang.System;
 public final class NoteEntity {
     @androidx.room.PrimaryKey(autoGenerate = true)
     private int local_id;
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     @androidx.room.ColumnInfo(name = "title")
     private final java.lang.String title = null;
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     @androidx.room.ColumnInfo(name = "description")
     private final java.lang.String description = null;
     
-    @org.jetbrains.annotations.NotNull()
-    public final com.example.kotlindemo.notes_app.data.model.NoteEntity copy(int local_id, @org.jetbrains.annotations.Nullable()
-    java.lang.String title, @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.NotNull
+    public final com.example.kotlindemo.notes_app.data.model.NoteEntity copy(int local_id, @org.jetbrains.annotations.Nullable
+    java.lang.String title, @org.jetbrains.annotations.Nullable
     java.lang.String description) {
         return null;
     }
     
-    @java.lang.Override()
-    public boolean equals(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    public boolean equals(@org.jetbrains.annotations.Nullable
     java.lang.Object other) {
         return false;
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int hashCode() {
         return 0;
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public java.lang.String toString() {
         return null;
     }
@@ -42,8 +42,8 @@ public final class NoteEntity {
         super();
     }
     
-    public NoteEntity(int local_id, @org.jetbrains.annotations.Nullable()
-    java.lang.String title, @org.jetbrains.annotations.Nullable()
+    public NoteEntity(int local_id, @org.jetbrains.annotations.Nullable
+    java.lang.String title, @org.jetbrains.annotations.Nullable
     java.lang.String description) {
         super();
     }
@@ -59,22 +59,22 @@ public final class NoteEntity {
     public final void setLocal_id(int p0) {
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final java.lang.String component2() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final java.lang.String getTitle() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final java.lang.String component3() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final java.lang.String getDescription() {
         return null;
     }

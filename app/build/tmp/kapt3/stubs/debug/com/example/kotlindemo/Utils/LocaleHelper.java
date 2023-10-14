@@ -10,9 +10,9 @@ public final class LocaleHelper {
         super();
     }
     
-    @org.jetbrains.annotations.Nullable()
-    public final android.content.Context setLocale(@org.jetbrains.annotations.NotNull()
-    android.content.Context context, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.Nullable
+    public final android.content.Context setLocale(@org.jetbrains.annotations.NotNull
+    android.content.Context context, @org.jetbrains.annotations.NotNull
     java.lang.String language) {
         return null;
     }

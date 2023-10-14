@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Kotlin Project</string>
+    <string name="app_name" translatable="false">Android Practice</string>
     <!-- Strings used for fragments for navigation -->
 
     <!-- TODO: Remove or change this placeholder text -->

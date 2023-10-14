@@ -6,29 +6,29 @@ import java.lang.System;
 public final class AppDbHelper implements com.example.kotlindemo.notes_app.data.db.DbHelper {
     private final com.example.kotlindemo.notes_app.data.db.AppDatabase mDatabase = null;
     
-    @javax.inject.Inject()
-    public AppDbHelper(@org.jetbrains.annotations.NotNull()
+    @javax.inject.Inject
+    public AppDbHelper(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.data.db.AppDatabase mDatabase) {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public io.reactivex.Observable<java.util.List<com.example.kotlindemo.notes_app.data.model.NoteEntity>> getNoteList() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
-    public io.reactivex.Observable<java.lang.Boolean> insertNote(@org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
+    public io.reactivex.Observable<java.lang.Boolean> insertNote(@org.jetbrains.annotations.NotNull
     com.example.kotlindemo.notes_app.data.model.NoteEntity noteEntity) {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
-    @java.lang.Override()
-    public java.lang.Object updateNote(@org.jetbrains.annotations.NotNull()
-    com.example.kotlindemo.notes_app.data.model.NoteEntity noteEntity, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.Nullable
+    @java.lang.Override
+    public java.lang.Object updateNote(@org.jetbrains.annotations.NotNull
+    com.example.kotlindemo.notes_app.data.model.NoteEntity noteEntity, @org.jetbrains.annotations.NotNull
     kotlin.coroutines.Continuation<? super kotlin.Unit> continuation) {
         return null;
     }

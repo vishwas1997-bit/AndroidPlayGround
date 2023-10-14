@@ -10,6 +10,6 @@ public abstract class AppDatabase extends androidx.room.RoomDatabase {
         super();
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public abstract com.example.kotlindemo.notes_app.data.db.dao.NoteDao getNoteDao();
 }

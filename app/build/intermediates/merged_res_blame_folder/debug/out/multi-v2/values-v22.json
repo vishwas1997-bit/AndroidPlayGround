@@ -1,19 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-45:/values-v22/values-v22.xml",
+            "outputFile": "com.example.kotlindemo.app-mergeDebugResources-53:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\38f5a869f3eedc23fe1fd0d0e211fd9a\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Vishwas\\.gradle\\caches\\transforms-3\\27bc43adbbab6730645f7b33cc4c853a\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    },
-                    "to": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,130,217,487",

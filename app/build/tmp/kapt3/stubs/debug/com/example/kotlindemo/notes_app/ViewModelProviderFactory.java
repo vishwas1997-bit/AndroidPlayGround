@@ -7,15 +7,15 @@ public final class ViewModelProviderFactory<T extends androidx.lifecycle.ViewMod
     private java.lang.Class<T> viewModelClass;
     private androidx.core.util.Supplier<T> viewModelSupplier;
     
-    public ViewModelProviderFactory(@org.jetbrains.annotations.Nullable()
-    java.lang.Class<T> viewModelClass, @org.jetbrains.annotations.Nullable()
+    public ViewModelProviderFactory(@org.jetbrains.annotations.Nullable
+    java.lang.Class<T> viewModelClass, @org.jetbrains.annotations.Nullable
     androidx.core.util.Supplier<T> viewModelSupplier) {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
-    public <T extends androidx.lifecycle.ViewModel>T create(@org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
+    public <T extends androidx.lifecycle.ViewModel>T create(@org.jetbrains.annotations.NotNull
     java.lang.Class<T> modelClass) {
         return null;
     }
