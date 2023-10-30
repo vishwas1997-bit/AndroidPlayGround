@@ -41,6 +41,13 @@
             android:text="Work Manager"
             android:padding="@dimen/dimen_4dp"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flow_app"
+            android:text="Kotlin Flow"
+            android:padding="@dimen/dimen_4dp"/>
+
     </LinearLayout>
 
 </ScrollView>

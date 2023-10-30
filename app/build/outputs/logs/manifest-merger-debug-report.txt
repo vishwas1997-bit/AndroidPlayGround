@@ -114,11 +114,11 @@ ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\An
 	android:name
 		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.VIBRATE
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:10:5-66
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:10:22-63
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:9:22-63
 application
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:5-64:19
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:11:5-64:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Vishwas\.gradle\caches\transforms-3\3edaa999e10ac7a7be217c922e59e3a7\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Vishwas\.gradle\caches\transforms-3\3edaa999e10ac7a7be217c922e59e3a7\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vishwas\.gradle\caches\transforms-3\812085af1f5abdb755c400c9b7b3cb8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -144,85 +144,91 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vishwas\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Vishwas\.gradle\caches\transforms-3\e697e7499c55d36d9826566593ffd80b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:19:9-48
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:18:9-48
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:13:9-38
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:9-38
+activity#com.example.kotlindemo.flow.KotlinFlowActivity
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:20:13-52
 activity#com.example.kotlindemo.alarm_manager.AlarmActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:23:13-56
 activity#com.example.kotlindemo.workmanager.WorkManagerActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:24:13-60
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:26:13-60
 activity#com.example.kotlindemo.notes_app.NoteActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:27:13-51
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:29:13-51
 activity#com.example.kotlindemo.MainActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:37:27-74
 activity#com.example.kotlindemo.rxjava.ui.SimpleAPICallActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:44:9-46:39
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:45:9-47:39
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:46:13-36
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:45:13-60
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:46:13-60
 activity#com.example.kotlindemo.rxjava.ui.MultipleApiCallActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:47:9-49:39
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:48:9-50:39
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:48:13-62
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:49:13-62
 activity#com.example.kotlindemo.lauchmodedemo.FourthActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:51:13-57
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:52:13-57
 activity#com.example.kotlindemo.lauchmodedemo.ThirdActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:55:13-56
 activity#com.example.kotlindemo.lauchmodedemo.SecondActivity
-ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:56:9-60:15
+ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:57:9-60:56
 	android:exported
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:59:13-37
 	android:theme
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:59:13-53
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:60:13-53
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:57:13-57
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:58:13-57
 activity#com.example.kotlindemo.lauchmodedemo.FirstActivity
 ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:61:9-63:40
 	android:exported

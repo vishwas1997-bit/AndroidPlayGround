@@ -24,16 +24,16 @@
         "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\fragment_note_list.xml"
     },
     {
+        "merged": "com.example.kotlindemo.app-mergeDebugResources-54:/layout/activity_kotlin_flow.xml",
+        "source": "com.example.kotlindemo.app-main-57:/layout/activity_kotlin_flow.xml"
+    },
+    {
         "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\note_item.xml",
         "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\note_item.xml"
     },
     {
         "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_first.xml",
         "source": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-main-57:\\layout\\activity_first.xml"
-    },
-    {
-        "merged": "com.example.kotlindemo.app-mergeDebugResources-54:/layout/activity_first.xml",
-        "source": "com.example.kotlindemo.app-main-57:/layout/activity_first.xml"
     },
     {
         "merged": "C:\\Users\\Vishwas\\.gradle\\daemon\\8.0\\com.example.kotlindemo.app-mergeDebugResources-54:\\layout\\activity_main.xml",

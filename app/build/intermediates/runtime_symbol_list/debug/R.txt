@@ -2868,6 +2868,7 @@ int id fitXY 0x7f0800d1
 int id fixed 0x7f0800d2
 int id flip 0x7f0800d3
 int id floating 0x7f0800d4
+int id flow_app 0x7f08020e
 int id forever 0x7f0800d5
 int id fragment_container_view_tag 0x7f0800d6
 int id frost 0x7f0800d7
@@ -3046,6 +3047,7 @@ int id scrollIndicatorDown 0x7f080183
 int id scrollIndicatorUp 0x7f080184
 int id scrollView 0x7f080185
 int id scrollable 0x7f080186
+int id searchView 0x7f08020f
 int id search_badge 0x7f080187
 int id search_bar 0x7f080188
 int id search_button 0x7f080189
@@ -3279,6 +3281,7 @@ int layout activity_data_show 0x7f0b001d
 int layout activity_data_show_java2 0x7f0b001e
 int layout activity_first 0x7f0b001f
 int layout activity_fourth 0x7f0b0020
+int layout activity_kotlin_flow 0x7f0b0084
 int layout activity_main 0x7f0b0021
 int layout activity_note 0x7f0b0022
 int layout activity_second 0x7f0b0023

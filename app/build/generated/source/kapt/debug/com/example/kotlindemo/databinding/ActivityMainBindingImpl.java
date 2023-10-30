@@ -18,6 +18,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.note_app, 2);
         sViewsWithIds.put(R.id.alarm_app, 3);
         sViewsWithIds.put(R.id.work_manager_app, 4);
+        sViewsWithIds.put(R.id.flow_app, 5);
     }
     // views
     @NonNull
@@ -28,12 +29,13 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[3]
             , (android.widget.Button) bindings[1]
+            , (android.widget.Button) bindings[5]
             , (android.widget.Button) bindings[2]
             , (android.widget.Button) bindings[4]
             );

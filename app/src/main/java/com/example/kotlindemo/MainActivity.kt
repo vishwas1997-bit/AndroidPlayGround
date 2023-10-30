@@ -10,6 +10,7 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.example.kotlindemo.alarm_manager.AlarmActivity
 import com.example.kotlindemo.databinding.ActivityMainBinding
+import com.example.kotlindemo.flow.KotlinFlowActivity
 import com.example.kotlindemo.lauchmodedemo.FirstActivity
 import com.example.kotlindemo.notes_app.NoteActivity
 import com.example.kotlindemo.workmanager.WorkManagerActivity
@@ -38,6 +39,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.workManagerApp.setOnClickListener {
             startActivity(Intent(this@MainActivity, WorkManagerActivity::class.java))
+        }
+
+        binding.flowApp.setOnClickListener{
+            startActivity(Intent(this@MainActivity, KotlinFlowActivity::class.java))
         }
     }
 

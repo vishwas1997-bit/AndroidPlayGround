@@ -2869,6 +2869,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id flow_app
 id forever
 id fragment_container_view_tag
 id frost
@@ -3047,6 +3048,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3280,6 +3282,7 @@ layout activity_data_show
 layout activity_data_show_java2
 layout activity_first
 layout activity_fourth
+layout activity_kotlin_flow
 layout activity_main
 layout activity_note
 layout activity_second

@@ -36,6 +36,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.KotlinDemo" >
         <activity
+            android:name="com.example.kotlindemo.flow.KotlinFlowActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.kotlindemo.alarm_manager.AlarmActivity"
             android:exported="false" />
         <activity
@@ -52,8 +55,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- <activity -->
+        </activity> <!-- <activity -->
         <!-- android:name=".RoomDatabaseDemo.ui.NewCourseActivity" -->
         <!-- android:exported="false" /> -->
         <!-- <activity -->
