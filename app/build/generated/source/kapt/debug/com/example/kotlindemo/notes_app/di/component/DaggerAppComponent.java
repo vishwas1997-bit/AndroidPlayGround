@@ -3,7 +3,7 @@ package com.example.kotlindemo.notes_app.di.component;
 
 import android.app.Application;
 import android.content.Context;
-import com.example.kotlindemo.notes_app.App;
+import com.example.kotlindemo.App;
 import com.example.kotlindemo.notes_app.data.AppDataManger;
 import com.example.kotlindemo.notes_app.data.AppDataManger_Factory;
 import com.example.kotlindemo.notes_app.data.DataManger;

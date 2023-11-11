@@ -156,7 +156,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vishwas\.gradle\ca
 	android:theme
 		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:18:9-48
 	android:name
-		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:9-38
+		ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:9-28
 activity#com.example.kotlindemo.flow.KotlinFlowActivity
 ADDED from F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported

@@ -8,7 +8,7 @@ import androidx.annotation.LayoutRes
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
-import com.example.kotlindemo.notes_app.App
+import com.example.kotlindemo.App
 import com.example.kotlindemo.notes_app.di.component.DaggerFragmentComponent
 import com.example.kotlindemo.notes_app.di.component.FragmentComponent
 import com.example.kotlindemo.notes_app.di.module.FragmentModule

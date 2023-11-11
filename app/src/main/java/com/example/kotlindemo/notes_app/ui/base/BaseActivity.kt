@@ -1,12 +1,11 @@
 package com.example.kotlindemo.notes_app.ui.base
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-import com.example.kotlindemo.notes_app.App
+import com.example.kotlindemo.App
 import com.example.kotlindemo.notes_app.di.component.ActivityComponent
 import com.example.kotlindemo.notes_app.di.component.DaggerActivityComponent
 import com.example.kotlindemo.notes_app.di.module.ActivityModule

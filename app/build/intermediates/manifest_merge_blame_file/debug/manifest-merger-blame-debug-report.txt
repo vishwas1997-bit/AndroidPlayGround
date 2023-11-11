@@ -51,8 +51,8 @@
 26
 27    <application
 27-->F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:11:5-64:19
-28        android:name="com.example.kotlindemo.notes_app.App"
-28-->F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:9-38
+28        android:name="com.example.kotlindemo.App"
+28-->F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:12:9-28
 29        android:allowBackup="true"
 29-->F:\AndroidProjects\Android Practice\AndroidPlayGround\app\src\main\AndroidManifest.xml:13:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
